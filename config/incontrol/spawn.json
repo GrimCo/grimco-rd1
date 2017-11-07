@@ -2,7 +2,7 @@
 	{
 		"dimension": 0,
 		"hostile": true,		
-		"result": deny
+		"result": "deny"
 	},
 	{
 		"dimension": 0,
