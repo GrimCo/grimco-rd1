@@ -1,0 +1,232 @@
+{
+    "pools": [
+        {            
+            "rolls": {
+				"min": 1,
+				"max": 1
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgeariron",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgearcopper",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgeartin",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgearnickel",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgearbronze",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedgearconstatan",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplateiron",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplatecopper",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplatetin",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplatenickel",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplatebronze",
+                    "weight": 65
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:damagedplateconstatan",
+                    "weight": 65
+                },
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearlead",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearsilver",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearaluminum",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearsteel",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearinvar",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatelead",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatesilver",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatealuminum",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatesteel",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplateinvar",
+					"weight": 30
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgeargold",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearplatinum",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearelectrum",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplategold",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplateplatinum",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplateelectrum",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedcoiltransmission",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedcoilreception",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedcoilconductance",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedframemachine",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedframedevice",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedframeenergy",
+					"weight": 10
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearsignalum",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearlumium",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearenderium",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearfluxedelectrum",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatesignalum",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatelumium",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplateenderium",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatefluxedelectrum",
+					"weight": 8
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedplatemithril",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "contenttweaker:damagedgearmithril",
+					"weight": 1
+				}
+            ]
+        }
+    ]
+}
