@@ -1,1 +1,13 @@
-[]
+[
+	{
+		"dimension": 0,
+		"hostile": true,		
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"hostile": true,
+		"incity": true,
+		"result": "default"		
+	}
+]
