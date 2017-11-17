@@ -1,13 +1,5 @@
 [
-	{
-		"dimension": 0,
-		"hostile": true,		
-		"result": "deny"
-	},
-	{
-		"dimension": 0,
-		"hostile": true,
-		"incity": true,
-		"result": "default"		
-	}
+	{ "dimension": 0, "hostile": true, "incity": true, "result": "default" },
+	{ "maxheight": 59, "dimension": 0, "hostile": true, "seesky": false, "result": "default" },
+	{ "dimension": 0, "hostile": true, "result": "deny"}
 ]
