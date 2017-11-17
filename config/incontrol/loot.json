@@ -8,6 +8,7 @@
 	{
 		"hostile": true,
 		"incity": true,
+		"minheight": 50,
 		"random":0.001,
 		"item": "scrap:scrap/{TABLE:\"scrap:chest\",PLATE:\"269463\",GEAR:\"ab948b\",NAME:\"City Chest\"}"
 	}
