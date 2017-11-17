@@ -126,7 +126,7 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 32
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -147,13 +147,36 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 14
 			},
 			"cluster-count": 20,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -168,13 +191,36 @@
 			"generator": {
 				"block": "gold_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 13
 			},
-			"cluster-count": 2,
+			"cluster-count": 5,
 			"min-height": 0,
 			"max-height": 32,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -189,13 +235,36 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 12
 			},
 			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -210,13 +279,36 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 12
 			},
-			"cluster-count": 1,
+			"cluster-count": 4,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -231,35 +323,11 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 7
-			},
-			"cluster-count": 1,
-			"center-height": 16,
-			"spread": 16,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"mesa_gold": {
-			"enabled": true,
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "gold_ore"
-				},
-				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
-			"cluster-count": 20,
-			"min-height": 32,
-			"max-height": 80,
+			"cluster-count": 4,
+			"center-height": 16,
+			"spread": 16,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",
@@ -267,12 +335,20 @@
 					{
 						"type": "id",
 						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
 							"mesa",
-							"mesa_rock",
-							"mesa_clear_rock",
-							"mutated_mesa",
-							"mutated_mesa_rock",
-							"mutated_mesa_clear_rock"
+							"hills"
 						]
 					}
 				]
@@ -293,7 +369,7 @@
 					"name": "emerald_ore"
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 1
+				"cluster-size": 3
 			},
 			"cluster-count": {
 				"min": 3,
@@ -308,51 +384,20 @@
 					{
 						"type": "id",
 						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
-						]
-					}
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"silverfish": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "monster_egg",
-					"properties": {
-						"variant": "stone"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 9
-			},
-			"cluster-count": 7,
-			"min-height": 0,
-			"max-height": 64,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
 						]
 					}
 				]
@@ -371,7 +416,7 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 28
 			},
 			"cluster-count": 16,
 			"min-height": 10,
