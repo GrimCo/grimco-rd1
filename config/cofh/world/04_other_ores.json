@@ -313,6 +313,50 @@
 					1
 				]
 			}
+		},
+		
+		"ContentTweaker Ender Ore": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:sub_block_holder_0",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 1,
+			"max-height": 65,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"ice_flats",
+							"taiga_cold",
+							"taiga",
+							"forest",
+							"desert",
+							"birch_forest",
+							"roofed_forest",
+							"swampland",
+							"jungle",
+							"savanna",
+							"savanna_rock",
+							"mutated_savanna_rock",
+							"mesa",
+							"hills"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
 		}
 	}
 }
