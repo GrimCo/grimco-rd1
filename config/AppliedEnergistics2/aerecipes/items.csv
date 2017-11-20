@@ -643,150 +643,6 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
-securitycraft:laser_block, Laser Block 
-securitycraft:keypad, Keypad
-securitycraft:mine, Mine
-securitycraft:dirt_mine, Dirt Mine
-securitycraft:stone_mine, Stone Mine
-securitycraft:cobblestone_mine, Cobblestone Mine
-securitycraft:diamond_mine, Diamond Ore Mine
-securitycraft:sand_mine, Sand Mine
-securitycraft:furnace_mine, Furnace Mine
-securitycraft:retinal_scanner, Retinal Scanner
-securitycraft:bogus_lava, Fake Lava
-securitycraft:bogus_lava_flowing, tile.bogusLavaFlowing.name
-securitycraft:bogus_water, Fake Water
-securitycraft:bogus_water_flowing, tile.bogusWaterFlowing.name
-securitycraft:keycard_reader, Keycard Reader
-securitycraft:reinforced_iron_trapdoor, Reinforced Iron Trapdoor
-securitycraft:bouncing_betty, Bouncing Betty
-securitycraft:inventory_scanner, Inventory Scanner
-securitycraft:track_mine, Track Mine
-securitycraft:cage_trap, Cage Trap
-securitycraft:portable_radar, Portable Radar
-securitycraft:reinforced_iron_bars, Reinforced Iron Bars
-securitycraft:keypad_chest, Password-protected Chest
-securitycraft:username_logger, Username Logger
-securitycraft:alarm, Alarm
-securitycraft:reinforced_stone, Reinforced Stone
-securitycraft:reinforced_sandstone:0, Reinforced Sandstone
-securitycraft:reinforced_sandstone:1, Reinforced Chiseled Sandstone
-securitycraft:reinforced_sandstone:2, Reinforced Smooth Sandstone
-securitycraft:reinforced_dirt, Reinforced Dirt
-securitycraft:reinforced_cobblestone, Reinforced Cobblestone
-securitycraft:reinforced_fence_gate, Electrified Iron Fence Gate
-securitycraft:reinforced_planks:0, Reinforced Oak Planks
-securitycraft:reinforced_planks:1, Reinforced Spruce Planks
-securitycraft:reinforced_planks:2, Reinforced Birch Planks
-securitycraft:reinforced_planks:3, Reinforced Jungle Planks
-securitycraft:reinforced_planks:4, Reinforced Acacia Planks
-securitycraft:reinforced_planks:5, Reinforced Dark Oak Planks
-securitycraft:panic_button, Panic Button
-securitycraft:keypad_frame, Frame
-securitycraft:claymore, Claymore
-securitycraft:keypad_furnace, Password-protected Furnace
-securitycraft:security_camera, Security Camera
-securitycraft:reinforced_stairs_oak, Reinforced Oak Stairs
-securitycraft:reinforced_stairs_spruce, Reinforced Spruce Stairs
-securitycraft:reinforced_stairs_cobblestone, Reinforced Cobblestone Stairs
-securitycraft:reinforced_stairs_sandstone, Reinforced Sandstone Stairs
-securitycraft:reinforced_stairs_birch, Reinforced Birch Stairs
-securitycraft:reinforced_stairs_jungle, Reinforced Jungle Stairs
-securitycraft:reinforced_stairs_acacia, Reinforced Acacia Stairs
-securitycraft:reinforced_stairs_darkoak, Reinforced Dark Oak Stairs
-securitycraft:reinforced_stairs_stone, Reinforced Stone Stairs
-securitycraft:electrified_iron_fence, Electrified Iron Fence
-securitycraft:ims, Intelligent Munitions System 
-securitycraft:reinforced_glass_block, Reinforced Glass
-securitycraft:reinforced_stained_glass:0, Reinforced White Stained Glass
-securitycraft:reinforced_stained_glass:1, Reinforced Orange Stained Glass
-securitycraft:reinforced_stained_glass:2, Reinforced Magenta Stained Glass
-securitycraft:reinforced_stained_glass:3, Reinforced Light Blue Stained Glass
-securitycraft:reinforced_stained_glass:4, Reinforced Yellow Stained Glass
-securitycraft:reinforced_stained_glass:5, Reinforced Lime Stained Glass
-securitycraft:reinforced_stained_glass:6, Reinforced Pink Stained Glass
-securitycraft:reinforced_stained_glass:7, Reinforced Gray Stained Glass
-securitycraft:reinforced_stained_glass:8, Reinforced Light Stained Glass
-securitycraft:reinforced_stained_glass:9, Reinforced Cyan Stained Glass
-securitycraft:reinforced_stained_glass:10, Reinforced Purple Stained Glass
-securitycraft:reinforced_stained_glass:11, Reinforced Blue Stained Glass
-securitycraft:reinforced_stained_glass:12, Reinforced Brown Stained Glass
-securitycraft:reinforced_stained_glass:13, Reinforced Green Stained Glass
-securitycraft:reinforced_stained_glass:14, Reinforced Red Stained Glass
-securitycraft:reinforced_stained_glass:15, Reinforced Black Stained Glass
-securitycraft:reinforced_wood_slabs:0, Reinforced Oak Wood Slab
-securitycraft:reinforced_wood_slabs:1, Reinforced Spruce Wood Slab
-securitycraft:reinforced_wood_slabs:2, Reinforced Birch Wood Slab
-securitycraft:reinforced_wood_slabs:3, Reinforced Jungle Wood Slab
-securitycraft:reinforced_wood_slabs:4, Reinforced Acacia Wood Slab
-securitycraft:reinforced_wood_slabs:5, Reinforced Dark Oak Wood Slab
-securitycraft:reinforced_stone_slabs:0, Reinforced Stone Slab
-securitycraft:reinforced_stone_slabs:1, Reinforced Cobblestone Slab
-securitycraft:reinforced_stone_slabs:2, Reinforced Sandstone Slab
-securitycraft:reinforced_stone_slabs:3, Reinforced Stone Bricks Slab
-securitycraft:reinforced_stone_slabs:4, Reinforced Brick Slab
-securitycraft:reinforced_stone_slabs:5, Reinforced Nether Brick Slab
-securitycraft:protecto, Protecto
-securitycraft:reinforced_stone_brick:0, Reinforced Stone Bricks
-securitycraft:reinforced_stone_brick:1, Reinforced Mossy Stone Bricks
-securitycraft:reinforced_stone_brick:2, Reinforced Cracked Stone Bricks
-securitycraft:reinforced_stone_brick:3, Reinforced Chiseled Stone Bricks
-securitycraft:reinforced_stairs_stone_brick, Reinforced Stone Brick Stairs
-securitycraft:reinforced_mossy_cobblestone, Reinforced Mossy Cobblestone
-securitycraft:reinforced_brick, Reinforced Bricks
-securitycraft:reinforced_stairs_brick, Reinforced Brick Stairs
-securitycraft:reinforced_nether_brick, Reinforced Nether Brick
-securitycraft:reinforced_stairs_nether_brick, Reinforced Nether Brick Stairs
-securitycraft:reinforced_hardened_clay, Reinforced Terracotta
-securitycraft:reinforced_stained_hardened_clay:0, Reinforced White Terracotta
-securitycraft:reinforced_stained_hardened_clay:1, Reinforced Orange Terracotta
-securitycraft:reinforced_stained_hardened_clay:2, Reinforced Magenta Terracotta
-securitycraft:reinforced_stained_hardened_clay:3, Reinforced Light Blue Terracotta
-securitycraft:reinforced_stained_hardened_clay:4, Reinforced Yellow Terracotta
-securitycraft:reinforced_stained_hardened_clay:5, Reinforced Lime Terracotta
-securitycraft:reinforced_stained_hardened_clay:6, Reinforced Pink Terracotta
-securitycraft:reinforced_stained_hardened_clay:7, Reinforced Gray Terracotta
-securitycraft:reinforced_stained_hardened_clay:8, Reinforced Light Gray Terracotta
-securitycraft:reinforced_stained_hardened_clay:9, Reinforced Cyan Terracotta
-securitycraft:reinforced_stained_hardened_clay:10, Reinforced Purple Terracotta
-securitycraft:reinforced_stained_hardened_clay:11, Reinforced Blue Terracotta
-securitycraft:reinforced_stained_hardened_clay:12, Reinforced Brown Terracotta
-securitycraft:reinforced_stained_hardened_clay:13, Reinforced Green Terracotta
-securitycraft:reinforced_stained_hardened_clay:14, Reinforced Red Terracotta
-securitycraft:reinforced_stained_hardened_clay:15, Reinforced Black Terracotta
-securitycraft:codebreaker, Codebreaker
-securitycraft:door_indestructible_iron_item, Reinforced Iron Door
-securitycraft:scanner_door_item, Scanner Door
-securitycraft:universal_block_remover, Universal Block Remover
-securitycraft:keycard_lv1, Level 1 Keycard
-securitycraft:keycard_lv2, Level 2 Keycard
-securitycraft:keycard_lv3, Level 3 Keycard
-securitycraft:keycard_lv4, Level 4 Keycard
-securitycraft:keycard_lv5, Level 5 Keycard
-securitycraft:limited_use_keycard, Limited Use Keycard
-securitycraft:remote_access_mine, Mine Remote Access Tool
-securitycraft:bucket_f_water, Bucket Of Fake Water
-securitycraft:bucket_f_lava, Bucket Of Fake Lava
-securitycraft:universal_block_modifier, Universal Block Modifier
-securitycraft:redstone_module, Redstone Module
-securitycraft:whitelist_module, Whitelist Module
-securitycraft:blacklist_module, Blacklist Module
-securitycraft:harming_module, Harming Module
-securitycraft:smart_module, Smart Module
-securitycraft:storage_module, Storage Module
-securitycraft:disguise_module, Disguise Module
-securitycraft:wire_cutters, Wire Cutters
-securitycraft:admin_tool, Admin Tool
-securitycraft:keypad_item, Key Panel
-securitycraft:camera_monitor, Camera Monitor
-securitycraft:taser, Taser
-securitycraft:sc_manual, SecurityCraft Manual
-securitycraft:universal_owner_changer, Universal Owner Changer
-securitycraft:universal_block_reinforcer_lvl1, Universal Block Reinforcer (LvL1)
-securitycraft:universal_block_reinforcer_lvl2, Universal Block Reinforcer (LvL2)
-securitycraft:universal_block_reinforcer_lvl3, Universal Block Reinforcer (LvL3)
-securitycraft:briefcase, Briefcase
-securitycraft:universal_key_changer, Universal Key Changer
 compfac:casing, Compressor Casing
 compfac:controller, Compressor Controller
 compfac:energy_outlet, Compressor Energy Outlet
@@ -807,6 +663,103 @@ danknull:dank_null_panel:2, Iron /dank/null Panel
 danknull:dank_null_panel:3, Gold /dank/null Panel
 danknull:dank_null_panel:4, Diamond /dank/null Panel
 danknull:dank_null_panel:5, Emerald /dank/null Panel
+extracells:part.base:0, ME Fluid Export Bus
+extracells:part.base:1, ME Fluid Import Bus
+extracells:part.base:2, ME Fluid Storage Bus
+extracells:part.base:3, ME Fluid Terminal
+extracells:part.base:4, ME Fluid Level Emitter
+extracells:part.base:5, ME Fluid Annihilation Plane
+extracells:part.base:6, ME Fluid Formation Plane
+extracells:part.base:7, ME Drive Fixture
+extracells:part.base:8, ME Energy Cell Fixture
+extracells:part.base:9, ME Fluid Interface
+extracells:part.base:10, ME Fluid Storage Monitor
+extracells:part.base:11, ME Fluid Conversion Monitor
+extracells:part.base:12, ME Ore Dictionary Export Bus
+extracells:storage.fluid:0, ME 1k Fluid Storage Cell
+extracells:storage.fluid:1, ME 4k Fluid Storage Cell
+extracells:storage.fluid:2, ME 16k Fluid Storage Cell
+extracells:storage.fluid:3, ME 64k Fluid Storage Cell
+extracells:storage.fluid:4, ME 256k Fluid Storage Cell
+extracells:storage.fluid:5, ME 1024k Fluid Storage Cell
+extracells:storage.fluid:6, ME 4096k Fluid Storage Cell
+extracells:storage.physical:0, ME 256k Storage Cell
+extracells:storage.physical:1, ME 1024k Storage Cell
+extracells:storage.physical:2, ME 4096k Storage Cell
+extracells:storage.physical:3, ME 16384k Storage Cell
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.gas:0, ME 1k Gas Storage Cell
+extracells:storage.gas:1, ME 4k Gas Storage Cell
+extracells:storage.gas:2, ME 16k Gas Storage Cell
+extracells:storage.gas:3, ME 64k Gas Storage Cell
+extracells:storage.gas:4, ME 256k Gas Storage Cell
+extracells:storage.gas:5, ME 1024k Gas Storage Cell
+extracells:storage.gas:6, ME 4096k Gas Storage Cell
+extracells:pattern.fluid:0, ME Fluid Pattern
+extracells:pattern.fluid:0, ME Fluid Pattern: Water
+extracells:pattern.fluid:0, ME Fluid Pattern: Lava
+extracells:pattern.fluid:0, ME Fluid Pattern: Essence
+extracells:pattern.fluid:0, ME Fluid Pattern: Milk
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Meat
+extracells:pattern.fluid:0, ME Fluid Pattern: Latex
+extracells:pattern.fluid:0, ME Fluid Pattern: Sewage
+extracells:pattern.fluid:0, ME Fluid Pattern: Sludge
+extracells:pattern.fluid:0, ME Fluid Pattern: Biofuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Pink Slime
+extracells:pattern.fluid:0, ME Fluid Pattern: Protein
+extracells:pattern.fluid:0, ME Fluid Pattern: Menril Resin
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Chorus
+extracells:pattern.fluid:0, ME Fluid Pattern: Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Creosote Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquifacted Coal
+extracells:pattern.fluid:0, ME Fluid Pattern: Crude Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Naphtha
+extracells:pattern.fluid:0, ME Fluid Pattern: Refined Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Sap
+extracells:pattern.fluid:0, ME Fluid Pattern: Syrup
+extracells:pattern.fluid:0, ME Fluid Pattern: Resin
+extracells:pattern.fluid:0, ME Fluid Pattern: Tree Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Mushroom Stew
+extracells:pattern.fluid:0, ME Fluid Pattern: Destabilized Redstone
+extracells:pattern.fluid:0, ME Fluid Pattern: Energized Glowstone
+extracells:pattern.fluid:0, ME Fluid Pattern: Resonant Ender
+extracells:pattern.fluid:0, ME Fluid Pattern: Blazing Pyrotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Gelid Cryotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Zephyrean Aerotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Tectonic Petrotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Primal Mana
+extracells:pattern.fluid:0, ME Fluid Pattern: XP Juice
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Starlight
+extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
+extracells:storage.component:0, 256k ME Storage Component
+extracells:storage.component:1, 1024k ME Storage Component
+extracells:storage.component:2, 4096k ME Storage Component
+extracells:storage.component:3, 16384k ME Storage Component
+extracells:storage.component:4, 1k ME Fluid Storage Component
+extracells:storage.component:5, 4k ME Fluid Storage Component
+extracells:storage.component:6, 16k ME Fluid Storage Component
+extracells:storage.component:7, 64k ME Fluid Storage Component
+extracells:storage.component:8, 256k ME Fluid Storage Component
+extracells:storage.component:9, 1024k ME Fluid Storage Component
+extracells:storage.component:10, 4096k ME Fluid Storage Component
+extracells:storage.casing:0, Advanced Storage Housing
+extracells:storage.casing:1, Fluid Storage Housing
+extracells:fluid.item, item.extracells.fluid.item.name
+extracells:storage.fluid.portable, item.extracells.storage.fluid.portable.name
+extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
+extracells:pattern.crafting, item.extracells.pattern.crafting.name
+extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
+extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
+extracells:oc.upgrade, ME Upgrade
+extracells:gas.item, item.extracells.gas.item.name
+extracells:certustank, extracells.block.certustank.name
+extracells:walrus, Walrus
+extracells:fluidcrafter, ME Fluid Assembler
+extracells:ecbaseblock, ME Fluid Interface
+extracells:fluidfiller, ME Fluid Auto Filler
+extracells:hardmedrive, Blast resistant ME Drive
+extracells:vibrantchamberfluid, Fluid Vibration Chamber
 thermalfoundation:ore:0, Copper Ore
 thermalfoundation:ore:1, Tin Ore
 thermalfoundation:ore:2, Silver Ore
@@ -3721,6 +3674,8 @@ thermaldynamics:cover:0, Carved Wither Dust Block Cover
 thermaldynamics:cover:0, Chiseled Wither Dust Block Cover
 thermaldynamics:cover:0, Corrupted Wither Dust Block Cover
 thermaldynamics:cover:0, Checkered Wither Dust Block Cover
+thermaldynamics:cover:0, Cooked Meat Block Cover
+thermaldynamics:cover:0, Raw Meat Block Cover
 thermaldynamics:cover:0, Logic Programmer Cover
 thermaldynamics:cover:0, Menril Wood Cover
 thermaldynamics:cover:0, Enriched Menril Wood Cover
@@ -8642,8 +8597,8 @@ corail_pillar:minecraft_log_0:4, Acacia Wood Pillar
 corail_pillar:minecraft_log_0:13, Dark Oak Wood Pillar
 corail_pillar:minecraft_log_0:5, Dark Oak Wood Pillar
 forge:bucketfilled, %s Bucket
-aov:debugger, Debugger
 aov:blockangelic, Angelic Statue
+aov:debugger, Debugger
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -8932,23 +8887,6 @@ appliedenergistics2:facade:0, Cable Facade - Brown Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Green Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Red Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Black Concrete Powder
-appliedenergistics2:facade:0, Cable Facade - Reinforced Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced White Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Orange Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Magenta Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Light Blue Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Yellow Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Lime Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Pink Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Gray Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Light Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Cyan Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Purple Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Blue Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Brown Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Green Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Red Stained Glass
-appliedenergistics2:facade:0, Cable Facade - Reinforced Black Stained Glass
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Silver Ore
@@ -10933,6 +10871,8 @@ appliedenergistics2:facade:0, Cable Facade - Carved Wither Dust Block
 appliedenergistics2:facade:0, Cable Facade - Chiseled Wither Dust Block
 appliedenergistics2:facade:0, Cable Facade - Corrupted Wither Dust Block
 appliedenergistics2:facade:0, Cable Facade - Checkered Wither Dust Block
+appliedenergistics2:facade:0, Cable Facade - Cooked Meat Block
+appliedenergistics2:facade:0, Cable Facade - Raw Meat Block
 appliedenergistics2:facade:0, Cable Facade - Menril Wood
 appliedenergistics2:facade:0, Cable Facade - Enriched Menril Wood
 appliedenergistics2:facade:0, Cable Facade - Menril Wood Planks
@@ -13653,7 +13593,6 @@ appliedenergistics2:material:47, Singularity
 appliedenergistics2:material:45, Sky Stone Dust
 appliedenergistics2:material:41, Wireless Receiver
 appliedenergistics2:material:42, Wireless Booster
-appliedenergistics2:material:40, Wooden Gear
 appliedenergistics2:part:300, ME Annihilation Plane
 appliedenergistics2:part:120, Cable Anchor
 appliedenergistics2:part:20, ME Covered Cable - White
@@ -13775,6 +13714,39 @@ chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
 chisel:chisel_hitech, iChisel
 chisel:offsettool, Ender Offset Wand
+comforts:sleeping_bag:0, White Sleeping Bag
+comforts:sleeping_bag:1, Orange Sleeping Bag
+comforts:sleeping_bag:2, Magenta Sleeping Bag
+comforts:sleeping_bag:3, Light Blue Sleeping Bag
+comforts:sleeping_bag:4, Yellow Sleeping Bag
+comforts:sleeping_bag:5, Lime Sleeping Bag
+comforts:sleeping_bag:6, Pink Sleeping Bag
+comforts:sleeping_bag:7, Gray Sleeping Bag
+comforts:sleeping_bag:8, Light Gray Sleeping Bag
+comforts:sleeping_bag:9, Cyan Sleeping Bag
+comforts:sleeping_bag:10, Purple Sleeping Bag
+comforts:sleeping_bag:11, Blue Sleeping Bag
+comforts:sleeping_bag:12, Brown Sleeping Bag
+comforts:sleeping_bag:13, Green Sleeping Bag
+comforts:sleeping_bag:14, Red Sleeping Bag
+comforts:sleeping_bag:15, Black Sleeping Bag
+comforts:hammock:0, White Hammock Cloth
+comforts:hammock:1, Orange Hammock Cloth
+comforts:hammock:2, Magenta Hammock Cloth
+comforts:hammock:3, Light Blue Hammock Cloth
+comforts:hammock:4, Yellow Hammock Cloth
+comforts:hammock:5, Lime Hammock Cloth
+comforts:hammock:6, Pink Hammock Cloth
+comforts:hammock:7, Gray Hammock Cloth
+comforts:hammock:8, Light Gray Hammock Cloth
+comforts:hammock:9, Cyan Hammock Cloth
+comforts:hammock:10, Purple Hammock Cloth
+comforts:hammock:11, Blue Hammock Cloth
+comforts:hammock:12, Brown Hammock Cloth
+comforts:hammock:13, Green Hammock Cloth
+comforts:hammock:14, Red Hammock Cloth
+comforts:hammock:15, Black Hammock Cloth
+comforts:rope, Rope and Nail
 darkutils:trap_move, Vector Plate
 darkutils:trap_move_fast, Fast Vector Plate
 darkutils:trap_move_hyper, Extreme Vector Plate
@@ -13884,6 +13856,19 @@ everlastingabilities:ability_totem, Ability Totem
 everlastingabilities:ability_bottle, Ability Bottle
 gravestone:gravestone, Gravestone
 gravestone:death_info, Death Info
+teslacorelib:base_addon, Base Addon
+teslacorelib:energy_tier1, Energy Upgrade I
+teslacorelib:energy_tier2, Energy Upgrade II
+teslacorelib:machine_case, Machine Case
+teslacorelib:speed_tier1, Speed Upgrade I
+teslacorelib:speed_tier2, Speed Upgrade II
+teslacorelib:wrench, Tesla Wrench
+industrialmeat:raw_meat_ingot, Raw Meat Ingot
+industrialmeat:cooked_meat_ingot, Meat Ingot
+industrialmeat:raw_meat_nugget, Raw Meat Nugget
+industrialmeat:cooked_meat_block, Cooked Meat Block
+industrialmeat:raw_meat_block, Raw Meat Block
+industrialmeat:meat_packer, Meat Packer
 integrateddynamics:part_audio_reader_item, item.items.integrateddynamics.part_audio_reader_item.name
 integrateddynamics:part_block_reader_item, item.items.integrateddynamics.part_block_reader_item.name
 integrateddynamics:part_entity_reader_item, item.items.integrateddynamics.part_entity_reader_item.name
@@ -14117,44 +14102,6 @@ meecreeps:emptyportalgun, Portal Gun (empty)
 meecreeps:projectile, item.meecreeps.projectile.name
 meecreeps:cartridge, Portal Gun Cartridge
 meecreeps:portalblock, tile.meecreeps.portalblock.name
-xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
-xreliquary:altar, tile.altar.name
-xreliquary:apothecary_mortar, tile.apothecary_mortar.name
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
-xreliquary:pedestal:0, Pedestal
-xreliquary:pedestal:1, Pedestal
-xreliquary:pedestal:2, Pedestal
-xreliquary:pedestal:3, Pedestal
-xreliquary:pedestal:4, Pedestal
-xreliquary:pedestal:5, Pedestal
-xreliquary:pedestal:6, Pedestal
-xreliquary:pedestal:7, Pedestal
-xreliquary:pedestal:8, Pedestal
-xreliquary:pedestal:9, Pedestal
-xreliquary:pedestal:10, Pedestal
-xreliquary:pedestal:11, Pedestal
-xreliquary:pedestal:12, Pedestal
-xreliquary:pedestal:13, Pedestal
-xreliquary:pedestal:14, Pedestal
-xreliquary:pedestal:15, Pedestal
-xreliquary:pedestal_passive:0, Pedestal (Display only)
-xreliquary:pedestal_passive:1, Pedestal (Display only)
-xreliquary:pedestal_passive:2, Pedestal (Display only)
-xreliquary:pedestal_passive:3, Pedestal (Display only)
-xreliquary:pedestal_passive:4, Pedestal (Display only)
-xreliquary:pedestal_passive:5, Pedestal (Display only)
-xreliquary:pedestal_passive:6, Pedestal (Display only)
-xreliquary:pedestal_passive:7, Pedestal (Display only)
-xreliquary:pedestal_passive:8, Pedestal (Display only)
-xreliquary:pedestal_passive:9, Pedestal (Display only)
-xreliquary:pedestal_passive:10, Pedestal (Display only)
-xreliquary:pedestal_passive:11, Pedestal (Display only)
-xreliquary:pedestal_passive:12, Pedestal (Display only)
-xreliquary:pedestal_passive:13, Pedestal (Display only)
-xreliquary:pedestal_passive:14, Pedestal (Display only)
-xreliquary:pedestal_passive:15, Pedestal (Display only)
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, Rib Bone
 xreliquary:mob_ingredient:1, Withered Rib
@@ -14263,6 +14210,44 @@ xreliquary:magazine:7, Seeker Magazine
 xreliquary:magazine:8, Sand Magazine
 xreliquary:magazine:9, Storm Magazine
 xreliquary:tipped_arrow, Tipped Arrow
+xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
+xreliquary:altar, tile.altar.name
+xreliquary:apothecary_mortar, tile.apothecary_mortar.name
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
+xreliquary:pedestal:0, Pedestal
+xreliquary:pedestal:1, Pedestal
+xreliquary:pedestal:2, Pedestal
+xreliquary:pedestal:3, Pedestal
+xreliquary:pedestal:4, Pedestal
+xreliquary:pedestal:5, Pedestal
+xreliquary:pedestal:6, Pedestal
+xreliquary:pedestal:7, Pedestal
+xreliquary:pedestal:8, Pedestal
+xreliquary:pedestal:9, Pedestal
+xreliquary:pedestal:10, Pedestal
+xreliquary:pedestal:11, Pedestal
+xreliquary:pedestal:12, Pedestal
+xreliquary:pedestal:13, Pedestal
+xreliquary:pedestal:14, Pedestal
+xreliquary:pedestal:15, Pedestal
+xreliquary:pedestal_passive:0, Pedestal (Display only)
+xreliquary:pedestal_passive:1, Pedestal (Display only)
+xreliquary:pedestal_passive:2, Pedestal (Display only)
+xreliquary:pedestal_passive:3, Pedestal (Display only)
+xreliquary:pedestal_passive:4, Pedestal (Display only)
+xreliquary:pedestal_passive:5, Pedestal (Display only)
+xreliquary:pedestal_passive:6, Pedestal (Display only)
+xreliquary:pedestal_passive:7, Pedestal (Display only)
+xreliquary:pedestal_passive:8, Pedestal (Display only)
+xreliquary:pedestal_passive:9, Pedestal (Display only)
+xreliquary:pedestal_passive:10, Pedestal (Display only)
+xreliquary:pedestal_passive:11, Pedestal (Display only)
+xreliquary:pedestal_passive:12, Pedestal (Display only)
+xreliquary:pedestal_passive:13, Pedestal (Display only)
+xreliquary:pedestal_passive:14, Pedestal (Display only)
+xreliquary:pedestal_passive:15, Pedestal (Display only)
 roost:roost, Roost
 roost:breeder, Chicken Breeder
 roost:collector, Roost Collector
@@ -14475,6 +14460,9 @@ waystones:waystone, Waystone
 waystones:return_scroll, Return Scroll
 waystones:warp_scroll, Warp Scroll
 waystones:warp_stone, Warp Stone
+teslacorelib:gear_diamond, Diamond Gear
+teslacorelib:gear_stone, Stone Gear
+teslacorelib:gear_wood, Wood Gear
 astralsorcery:itemcraftingcomponent:0, Aquamarine
 astralsorcery:itemcraftingcomponent:1, Starmetal Ingot
 astralsorcery:itemcraftingcomponent:2, Stardust
@@ -17071,6 +17059,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Carved Wither Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Wither Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Corrupted Wither Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Checkered Wither Dust Block
+chiselsandbits:block_bit:0, Chiseled Bit - Cooked Meat Block
+chiselsandbits:block_bit:0, Chiseled Bit - Raw Meat Block
 chiselsandbits:block_bit:0, Chiseled Bit - Logic Programmer North
 chiselsandbits:block_bit:0, Chiseled Bit - Menril Wood East/West
 chiselsandbits:block_bit:0, Chiseled Bit - Enriched Menril Wood East/West
@@ -20998,6 +20988,15 @@ chiselsandbits:block_bit:0, Chiseled Bit - Dimensional Shard Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Dimensional Shard Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Destination Analyzer Down
 chiselsandbits:block_bit:0, Chiseled Bit - Matter Booster Down
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
+chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Menril Resin
@@ -24945,6 +24944,110 @@ flatcoloredblocks:flatcoloredblock_glowing0_80:6, Glowing Silver Block #1286
 flatcoloredblocks:flatcoloredblock_glowing0_80:7, Glowing White Block #1287
 flatcoloredblocks:flatcoloredblock_glowing0_80:8, Glowing White Block #1288
 flatcoloredblocks:flatcoloredblock_glowing0_80:9, Glowing White Block #1289
+industrialforegoing:petrified_fuel_generator, Petrified Fuel Generator
+industrialforegoing:enchantment_refiner, Enchantment Sorter
+industrialforegoing:enchantment_extractor, Enchantment Extractor
+industrialforegoing:enchantment_aplicator, Enchantment Applicator
+industrialforegoing:mob_relocator, Mob Crusher
+industrialforegoing:potion_enervator, Potion Brewer
+industrialforegoing:animal_independence_selector, Animal Baby Separator
+industrialforegoing:animal_stock_increaser, Animal Feeder
+industrialforegoing:crop_sower, Plant Sower
+industrialforegoing:crop_enrich_material_injector, Plant Fertilizer
+industrialforegoing:crop_recolector, Plant Gatherer
+industrialforegoing:black_hole_unit, Black Hole Unit
+industrialforegoing:water_condensator, Water Condensator
+industrialforegoing:water_resources_collector, Resources Fisher
+industrialforegoing:animal_resource_harvester, Animal Rancher
+industrialforegoing:mob_slaughter_factory, Mob Slaughter Factory
+industrialforegoing:mob_duplicator, Mob Duplicator
+industrialforegoing:block_destroyer, Block Breaker
+industrialforegoing:block_placer, Block Placer
+industrialforegoing:tree_fluid_extractor, Tree Fluid Extractor
+industrialforegoing:latex_processing_unit, Latex Processing Unit
+industrialforegoing:sewage_composter_solidifier, Sewage Composter
+industrialforegoing:animal_byproduct_recolector, Animal Sewage
+industrialforegoing:sludge_refiner, Sludge Refiner
+industrialforegoing:mob_detector, Mob Detector
+industrialforegoing:lava_fabricator, Lava Fabricator
+industrialforegoing:bioreactor, Bioreactor
+industrialforegoing:biofuel_generator, Biofuel Generator
+industrialforegoing:laser_base, Laser Base
+industrialforegoing:laser_drill, Laser Drill
+industrialforegoing:ore_processor, Ore Processor
+industrialforegoing:black_hole_controller, Black Hole Controller
+industrialforegoing:dye_mixer, Dye Mixer
+industrialforegoing:enchantment_invoker, Enchantment Factory
+industrialforegoing:spores_recreator, Spores Recreator
+industrialforegoing:animal_growth_increaser, Animal Grower
+industrialforegoing:material_stonework_factory, Material StoneWork Factory
+industrialforegoing:black_hole_tank, Black Hole Tank
+industrialforegoing:resourceful_furnace, Resourceful Furnace
+industrialforegoing:villager_trade_exchanger, Villager Trade Exchanger
+industrialforegoing:energy_field_provider, Energy Field Provider
+industrialforegoing:oredictionary_converter, Ore Dictionary Converter
+industrialforegoing:protein_reactor, Protein Reactor
+industrialforegoing:protein_generator, Protein Generator
+industrialforegoing:hydrator, Hydrator
+industrialforegoing:wither_builder, Wither Builder
+industrialforegoing:fluid_pump, Fluid Pump
+industrialforegoing:item_splitter, Item Splitter
+industrialforegoing:tinydryrubber, Tiny Dry Rubber
+industrialforegoing:dryrubber, Dry Rubber
+industrialforegoing:plastic, Plastic
+industrialforegoing:fertilizer, Fertilizer
+industrialforegoing:meat_feeder, Meat Feeder
+industrialforegoing:mob_imprisonment_tool, Mob Imprisonment Tool
+industrialforegoing:laser_lens:0, Laser Lens
+industrialforegoing:laser_lens:1, Laser Lens
+industrialforegoing:laser_lens:2, Laser Lens
+industrialforegoing:laser_lens:3, Laser Lens
+industrialforegoing:laser_lens:4, Laser Lens
+industrialforegoing:laser_lens:5, Laser Lens
+industrialforegoing:laser_lens:6, Laser Lens
+industrialforegoing:laser_lens:7, Laser Lens
+industrialforegoing:laser_lens:8, Laser Lens
+industrialforegoing:laser_lens:9, Laser Lens
+industrialforegoing:laser_lens:10, Laser Lens
+industrialforegoing:laser_lens:11, Laser Lens
+industrialforegoing:laser_lens:12, Laser Lens
+industrialforegoing:laser_lens:13, Laser Lens
+industrialforegoing:laser_lens:14, Laser Lens
+industrialforegoing:laser_lens:15, Laser Lens
+industrialforegoing:laser_lens_inverted:0, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:1, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:2, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:3, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:4, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:5, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:6, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:7, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:8, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:9, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:10, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:11, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:12, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:13, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:14, Laser Lens (Inverted)
+industrialforegoing:laser_lens_inverted:15, Laser Lens (Inverted)
+industrialforegoing:straw, Straw
+industrialforegoing:pink_slime, Pink Slime
+industrialforegoing:book_manual, Industrial Foregoing's Manual
+industrialforegoing:adult_filter, Adult Filter
+industrialforegoing:range_addon:0, Range Addon
+industrialforegoing:range_addon:1, Range Addon
+industrialforegoing:range_addon:2, Range Addon
+industrialforegoing:range_addon:3, Range Addon
+industrialforegoing:range_addon:4, Range Addon
+industrialforegoing:range_addon:5, Range Addon
+industrialforegoing:range_addon:6, Range Addon
+industrialforegoing:range_addon:7, Range Addon
+industrialforegoing:range_addon:8, Range Addon
+industrialforegoing:range_addon:9, Range Addon
+industrialforegoing:range_addon:10, Range Addon
+industrialforegoing:range_addon:11, Range Addon
+industrialforegoing:energy_field_addon, Energy Field Addon
+industrialforegoing:leaf_shearing, Leaf Shearing Addon
 nice:solid, Particle Block
 nice:cylinder, Particle Cylinder
 notenoughwands:wandcore, Wand Core
@@ -25074,6 +25177,7 @@ rftools:clock_module, Clock Module
 rftools:fluid_module, Fluid Module
 rftools:fluidplus_module, Fluid Plus Module
 rftools:machineinformation_module, Machine Information Module
+rftools:computer_module, Computer Module
 rftools:button_module, Button Module
 rftools:elevator_button_module, Elevator Button Module
 rftools:redstone_module, Redstone Module
@@ -25208,6 +25312,7 @@ theoneprobe:probe_goggles, The One Probe (Bauble)
 tinyreactors:reactor_vent:0, Iron Reactor Vent
 tinyreactors:reactor_vent:1, Gold Reactor Vent
 tinyreactors:reactor_vent:2, Diamond Reactor Vent
+tinyreactors:tiny_wrench, Tiny Wrench
 tinyreactors:reactor_glass, Reactor Glass
 tinyreactors:reactor_controller_1, Reactor Controller
 tinyreactors:reactor_controller_2, Reactor Controller
