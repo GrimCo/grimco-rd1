@@ -8597,8 +8597,8 @@ corail_pillar:minecraft_log_0:4, Acacia Wood Pillar
 corail_pillar:minecraft_log_0:13, Dark Oak Wood Pillar
 corail_pillar:minecraft_log_0:5, Dark Oak Wood Pillar
 forge:bucketfilled, %s Bucket
-aov:blockangelic, Angelic Statue
 aov:debugger, Debugger
+aov:blockangelic, Angelic Statue
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -8627,7 +8627,6 @@ appliedenergistics2:quantum_ring, ME Quantum Ring
 appliedenergistics2:quantum_link, ME Quantum Link Chamber
 appliedenergistics2:spatial_pylon, Spatial Pylon
 appliedenergistics2:spatial_io_port, Spatial IO Port
-appliedenergistics2:controller, ME Controller
 appliedenergistics2:drive, ME Drive
 appliedenergistics2:chest, ME Chest
 appliedenergistics2:interface, ME Interface
@@ -10913,6 +10912,21 @@ appliedenergistics2:facade:0, Cable Facade - Sooty Marble Arch
 appliedenergistics2:facade:0, Cable Facade - Chiseled Sooty Marble
 appliedenergistics2:facade:0, Cable Facade - Engraved Sooty Marble
 appliedenergistics2:facade:0, Cable Facade - Runed Sooty Marble
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
+appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Dark Red Block #0
 appliedenergistics2:facade:0, Cable Facade - Dark Red Block #1
 appliedenergistics2:facade:0, Cable Facade - Dark Red Block #2
@@ -13593,6 +13607,7 @@ appliedenergistics2:material:47, Singularity
 appliedenergistics2:material:45, Sky Stone Dust
 appliedenergistics2:material:41, Wireless Receiver
 appliedenergistics2:material:42, Wireless Booster
+appliedenergistics2:material:40, Wooden Gear
 appliedenergistics2:part:300, ME Annihilation Plane
 appliedenergistics2:part:120, Cable Anchor
 appliedenergistics2:part:20, ME Covered Cable - White
@@ -13612,40 +13627,6 @@ appliedenergistics2:part:33, ME Covered Cable - Green
 appliedenergistics2:part:34, ME Covered Cable - Red
 appliedenergistics2:part:35, ME Covered Cable - Black
 appliedenergistics2:part:36, ME Covered Cable - Fluix
-appliedenergistics2:part:500, ME Dense Covered Cable - White
-appliedenergistics2:part:501, ME Dense Covered Cable - Orange
-appliedenergistics2:part:502, ME Dense Covered Cable - Magenta
-appliedenergistics2:part:503, ME Dense Covered Cable - Light Blue
-appliedenergistics2:part:504, ME Dense Covered Cable - Yellow
-appliedenergistics2:part:505, ME Dense Covered Cable - Lime
-appliedenergistics2:part:506, ME Dense Covered Cable - Pink
-appliedenergistics2:part:507, ME Dense Covered Cable - Gray
-appliedenergistics2:part:508, ME Dense Covered Cable - Light Gray
-appliedenergistics2:part:509, ME Dense Covered Cable - Cyan
-appliedenergistics2:part:510, ME Dense Covered Cable - Purple
-appliedenergistics2:part:511, ME Dense Covered Cable - Blue
-appliedenergistics2:part:512, ME Dense Covered Cable - Brown
-appliedenergistics2:part:513, ME Dense Covered Cable - Green
-appliedenergistics2:part:514, ME Dense Covered Cable - Red
-appliedenergistics2:part:515, ME Dense Covered Cable - Black
-appliedenergistics2:part:516, ME Dense Covered Cable - Fluix
-appliedenergistics2:part:60, ME Dense Smart Cable - White
-appliedenergistics2:part:61, ME Dense Smart Cable - Orange
-appliedenergistics2:part:62, ME Dense Smart Cable - Magenta
-appliedenergistics2:part:63, ME Dense Smart Cable - Light Blue
-appliedenergistics2:part:64, ME Dense Smart Cable - Yellow
-appliedenergistics2:part:65, ME Dense Smart Cable - Lime
-appliedenergistics2:part:66, ME Dense Smart Cable - Pink
-appliedenergistics2:part:67, ME Dense Smart Cable - Gray
-appliedenergistics2:part:68, ME Dense Smart Cable - Light Gray
-appliedenergistics2:part:69, ME Dense Smart Cable - Cyan
-appliedenergistics2:part:70, ME Dense Smart Cable - Purple
-appliedenergistics2:part:71, ME Dense Smart Cable - Blue
-appliedenergistics2:part:72, ME Dense Smart Cable - Brown
-appliedenergistics2:part:73, ME Dense Smart Cable - Green
-appliedenergistics2:part:74, ME Dense Smart Cable - Red
-appliedenergistics2:part:75, ME Dense Smart Cable - Black
-appliedenergistics2:part:76, ME Dense Smart Cable - Fluix
 appliedenergistics2:part:0, ME Glass Cable - White
 appliedenergistics2:part:1, ME Glass Cable - Orange
 appliedenergistics2:part:2, ME Glass Cable - Magenta
@@ -13663,23 +13644,6 @@ appliedenergistics2:part:13, ME Glass Cable - Green
 appliedenergistics2:part:14, ME Glass Cable - Red
 appliedenergistics2:part:15, ME Glass Cable - Black
 appliedenergistics2:part:16, ME Glass Cable - Fluix
-appliedenergistics2:part:40, ME Smart Cable - White
-appliedenergistics2:part:41, ME Smart Cable - Orange
-appliedenergistics2:part:42, ME Smart Cable - Magenta
-appliedenergistics2:part:43, ME Smart Cable - Light Blue
-appliedenergistics2:part:44, ME Smart Cable - Yellow
-appliedenergistics2:part:45, ME Smart Cable - Lime
-appliedenergistics2:part:46, ME Smart Cable - Pink
-appliedenergistics2:part:47, ME Smart Cable - Gray
-appliedenergistics2:part:48, ME Smart Cable - Light Gray
-appliedenergistics2:part:49, ME Smart Cable - Cyan
-appliedenergistics2:part:50, ME Smart Cable - Purple
-appliedenergistics2:part:51, ME Smart Cable - Blue
-appliedenergistics2:part:52, ME Smart Cable - Brown
-appliedenergistics2:part:53, ME Smart Cable - Green
-appliedenergistics2:part:54, ME Smart Cable - Red
-appliedenergistics2:part:55, ME Smart Cable - Black
-appliedenergistics2:part:56, ME Smart Cable - Fluix
 appliedenergistics2:part:420, ME Conversion Monitor
 appliedenergistics2:part:360, ME Crafting Terminal
 appliedenergistics2:part:200, Dark Illuminated Panel
@@ -13856,12 +13820,7 @@ everlastingabilities:ability_totem, Ability Totem
 everlastingabilities:ability_bottle, Ability Bottle
 gravestone:gravestone, Gravestone
 gravestone:death_info, Death Info
-teslacorelib:base_addon, Base Addon
-teslacorelib:energy_tier1, Energy Upgrade I
-teslacorelib:energy_tier2, Energy Upgrade II
 teslacorelib:machine_case, Machine Case
-teslacorelib:speed_tier1, Speed Upgrade I
-teslacorelib:speed_tier2, Speed Upgrade II
 teslacorelib:wrench, Tesla Wrench
 industrialmeat:raw_meat_ingot, Raw Meat Ingot
 industrialmeat:cooked_meat_ingot, Meat Ingot
@@ -13958,6 +13917,24 @@ ironbackpacks:upgrade:0, Blank Upgrade
 ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -14078,24 +14055,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 meecreeps:creepcube, Creep Cube
 meecreeps:portalgun, Portal Gun
 meecreeps:emptyportalgun, Portal Gun (empty)
@@ -14460,9 +14419,6 @@ waystones:waystone, Waystone
 waystones:return_scroll, Return Scroll
 waystones:warp_scroll, Warp Scroll
 waystones:warp_stone, Warp Stone
-teslacorelib:gear_diamond, Diamond Gear
-teslacorelib:gear_stone, Stone Gear
-teslacorelib:gear_wood, Wood Gear
 astralsorcery:itemcraftingcomponent:0, Aquamarine
 astralsorcery:itemcraftingcomponent:1, Starmetal Ingot
 astralsorcery:itemcraftingcomponent:2, Stardust
@@ -21049,7 +21005,7 @@ contenttweaker:damagedframedevice, Broken Device Frame
 contenttweaker:damagedgearcopper, Chipped Copper Gear
 contenttweaker:damagedplatesignalum, Dented Signalum Plate
 contenttweaker:damagedgearaluminum, Chipped Aluminum Gear
-contenttweaker:damagedplateconstatan, Dented Constatan Plate
+contenttweaker:damagedplateconstatan, Dented Constantan Plate
 contenttweaker:damagedgeartin, Chipped Tin Gear
 contenttweaker:damagedplatenickel, Dented Nickel Plate
 contenttweaker:damagedplatemithril, Dented Mana-Infused Plate
@@ -21065,7 +21021,7 @@ contenttweaker:damagedplatelumium, Dented Lumium Plate
 contenttweaker:damagedplateiron, Dented Iron Plate
 contenttweaker:damagedplatesilver, Dented Silver Plate
 contenttweaker:damagedplateplatinum, Dented Platinum Plate
-contenttweaker:damagedgearconstatan, Chipped Constatan Gear
+contenttweaker:damagedgearconstatan, Chipped Constantan Gear
 contenttweaker:damagedgearsteel, Chipped Steel Gear
 contenttweaker:damagedplatecopper, Dented Copper Plate
 contenttweaker:damagedgearlumium, Chipped Lumium Gear
@@ -25065,22 +25021,6 @@ notenoughwands:master_protection_wand, Master Protection Wand
 notenoughwands:freezing_wand, Freezing Wand (WIP)
 notenoughwands:potion_wand, Potion Wand
 omlib:debug_tool:0, Debug Tool
-ompd:hardened:0, Hardened Block (Tier 1)
-ompd:hardened:1, Hardened Block (Tier 2)
-ompd:hardened:2, Hardened Block (Tier 3)
-ompd:hardened:3, Hardened Block (Tier 4)
-ompd:hardened:4, Hardened Block (Tier 5)
-ompd:fence:0, Fence (Tier 1)
-ompd:fence:1, Fence (Tier 2)
-ompd:fence:2, Fence (Tier 3)
-ompd:fence:3, Fence (Tier 4)
-ompd:fence:4, Fence (Tier 5)
-ompd:wall:0, Hardened Wall (Tier 1)
-ompd:wall:1, Hardened Wall (Tier 2)
-ompd:wall:2, Hardened Wall (Tier 3)
-ompd:wall:3, Hardened Wall (Tier 4)
-ompd:wall:4, Hardened Wall (Tier 5)
-ompd:camo_trap, tile.camo_trap.name
 openmodularturrets:intermediate_tiered:0, Sensor (Tier 1)
 openmodularturrets:intermediate_tiered:1, Sensor (Tier 2)
 openmodularturrets:intermediate_tiered:2, Sensor (Tier 3)
