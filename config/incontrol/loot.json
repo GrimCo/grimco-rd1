@@ -1,15 +1,18 @@
 [
 	{
+		"player": true,
 		"dimension": 0,
 		"hostile": true,
 		"random": 0.66,
 		"item": "scrap:scrap/{TABLE:\"scrap:scrap\",PLATE:\"d1a77f\",GEAR:\"d0c2ba\",NAME:\"Parts\"}"
 	},
 	{
+		"player": true,
+		"dimension": 0,
 		"hostile": true,
 		"incity": true,
 		"minheight": 50,
-		"random":0.001,
+		"random":0.1,
 		"item": "scrap:scrap/{TABLE:\"scrap:chest\",PLATE:\"269463\",GEAR:\"ab948b\",NAME:\"City Chest\"}"
 	}
 ]
