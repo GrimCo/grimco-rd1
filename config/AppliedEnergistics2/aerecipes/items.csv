@@ -8597,8 +8597,8 @@ corail_pillar:minecraft_log_0:4, Acacia Wood Pillar
 corail_pillar:minecraft_log_0:13, Dark Oak Wood Pillar
 corail_pillar:minecraft_log_0:5, Dark Oak Wood Pillar
 forge:bucketfilled, %s Bucket
-aov:debugger, Debugger
 aov:blockangelic, Angelic Statue
+aov:debugger, Debugger
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -13917,24 +13917,6 @@ ironbackpacks:upgrade:0, Blank Upgrade
 ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -14055,6 +14037,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 meecreeps:creepcube, Creep Cube
 meecreeps:portalgun, Portal Gun
 meecreeps:emptyportalgun, Portal Gun (empty)
