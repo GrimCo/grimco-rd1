@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/damagedGearGold"
+    "layer0": "contenttweaker:items/damagedgeargold"
   }
 }
