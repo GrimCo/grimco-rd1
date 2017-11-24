@@ -1,0 +1,154 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:mainmenu.png",
+            "posX" : -320,
+            "posY" : 0,
+            "width" : 640,
+            "height" : 360,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 0,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 0,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 0,
+            "posY" : 75,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+			"text" : "menu.options",
+            "posX" : -200,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"language":
+        {
+			"text" : "options.language",
+            "posX" : -200,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -200,
+            "posY" : 75,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "mainmenu:button.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 4,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+		"modcounts":
+        {
+            "text" : "#modsloaded# Mods loaded, #modsactive# Mods active.",
+            "posX" : -150,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "Brought to you by Department 6!"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
