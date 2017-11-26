@@ -13820,7 +13820,12 @@ everlastingabilities:ability_totem, Ability Totem
 everlastingabilities:ability_bottle, Ability Bottle
 gravestone:gravestone, Gravestone
 gravestone:death_info, Death Info
+teslacorelib:base_addon, Base Addon
+teslacorelib:energy_tier1, Energy Upgrade I
+teslacorelib:energy_tier2, Energy Upgrade II
 teslacorelib:machine_case, Machine Case
+teslacorelib:speed_tier1, Speed Upgrade I
+teslacorelib:speed_tier2, Speed Upgrade II
 teslacorelib:wrench, Tesla Wrench
 industrialmeat:raw_meat_ingot, Raw Meat Ingot
 industrialmeat:cooked_meat_ingot, Meat Ingot
