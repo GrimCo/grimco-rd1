@@ -8617,8 +8617,8 @@ corail_pillar:minecraft_log_0:4, Acacia Wood Pillar
 corail_pillar:minecraft_log_0:13, Dark Oak Wood Pillar
 corail_pillar:minecraft_log_0:5, Dark Oak Wood Pillar
 forge:bucketfilled, %s Bucket
-aov:blockangelic, Angelic Statue
 aov:debugger, Debugger
+aov:blockangelic, Angelic Statue
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
@@ -13942,6 +13942,24 @@ ironbackpacks:upgrade:0, Blank Upgrade
 ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -14062,68 +14080,12 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 meecreeps:creepcube, Creep Cube
 meecreeps:portalgun, Portal Gun
 meecreeps:emptyportalgun, Portal Gun (empty)
 meecreeps:projectile, item.meecreeps.projectile.name
 meecreeps:cartridge, Portal Gun Cartridge
 meecreeps:portalblock, tile.meecreeps.portalblock.name
-xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
-xreliquary:altar, tile.altar.name
-xreliquary:apothecary_mortar, tile.apothecary_mortar.name
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
-xreliquary:pedestal:0, Pedestal
-xreliquary:pedestal:1, Pedestal
-xreliquary:pedestal:2, Pedestal
-xreliquary:pedestal:3, Pedestal
-xreliquary:pedestal:4, Pedestal
-xreliquary:pedestal:5, Pedestal
-xreliquary:pedestal:6, Pedestal
-xreliquary:pedestal:7, Pedestal
-xreliquary:pedestal:8, Pedestal
-xreliquary:pedestal:9, Pedestal
-xreliquary:pedestal:10, Pedestal
-xreliquary:pedestal:11, Pedestal
-xreliquary:pedestal:12, Pedestal
-xreliquary:pedestal:13, Pedestal
-xreliquary:pedestal:14, Pedestal
-xreliquary:pedestal:15, Pedestal
-xreliquary:pedestal_passive:0, Pedestal (Display only)
-xreliquary:pedestal_passive:1, Pedestal (Display only)
-xreliquary:pedestal_passive:2, Pedestal (Display only)
-xreliquary:pedestal_passive:3, Pedestal (Display only)
-xreliquary:pedestal_passive:4, Pedestal (Display only)
-xreliquary:pedestal_passive:5, Pedestal (Display only)
-xreliquary:pedestal_passive:6, Pedestal (Display only)
-xreliquary:pedestal_passive:7, Pedestal (Display only)
-xreliquary:pedestal_passive:8, Pedestal (Display only)
-xreliquary:pedestal_passive:9, Pedestal (Display only)
-xreliquary:pedestal_passive:10, Pedestal (Display only)
-xreliquary:pedestal_passive:11, Pedestal (Display only)
-xreliquary:pedestal_passive:12, Pedestal (Display only)
-xreliquary:pedestal_passive:13, Pedestal (Display only)
-xreliquary:pedestal_passive:14, Pedestal (Display only)
-xreliquary:pedestal_passive:15, Pedestal (Display only)
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, Rib Bone
 xreliquary:mob_ingredient:1, Withered Rib
@@ -14232,6 +14194,44 @@ xreliquary:magazine:7, Seeker Magazine
 xreliquary:magazine:8, Sand Magazine
 xreliquary:magazine:9, Storm Magazine
 xreliquary:tipped_arrow, Tipped Arrow
+xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
+xreliquary:altar, tile.altar.name
+xreliquary:apothecary_mortar, tile.apothecary_mortar.name
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
+xreliquary:pedestal:0, Pedestal
+xreliquary:pedestal:1, Pedestal
+xreliquary:pedestal:2, Pedestal
+xreliquary:pedestal:3, Pedestal
+xreliquary:pedestal:4, Pedestal
+xreliquary:pedestal:5, Pedestal
+xreliquary:pedestal:6, Pedestal
+xreliquary:pedestal:7, Pedestal
+xreliquary:pedestal:8, Pedestal
+xreliquary:pedestal:9, Pedestal
+xreliquary:pedestal:10, Pedestal
+xreliquary:pedestal:11, Pedestal
+xreliquary:pedestal:12, Pedestal
+xreliquary:pedestal:13, Pedestal
+xreliquary:pedestal:14, Pedestal
+xreliquary:pedestal:15, Pedestal
+xreliquary:pedestal_passive:0, Pedestal (Display only)
+xreliquary:pedestal_passive:1, Pedestal (Display only)
+xreliquary:pedestal_passive:2, Pedestal (Display only)
+xreliquary:pedestal_passive:3, Pedestal (Display only)
+xreliquary:pedestal_passive:4, Pedestal (Display only)
+xreliquary:pedestal_passive:5, Pedestal (Display only)
+xreliquary:pedestal_passive:6, Pedestal (Display only)
+xreliquary:pedestal_passive:7, Pedestal (Display only)
+xreliquary:pedestal_passive:8, Pedestal (Display only)
+xreliquary:pedestal_passive:9, Pedestal (Display only)
+xreliquary:pedestal_passive:10, Pedestal (Display only)
+xreliquary:pedestal_passive:11, Pedestal (Display only)
+xreliquary:pedestal_passive:12, Pedestal (Display only)
+xreliquary:pedestal_passive:13, Pedestal (Display only)
+xreliquary:pedestal_passive:14, Pedestal (Display only)
+xreliquary:pedestal_passive:15, Pedestal (Display only)
 roost:roost, Roost
 roost:breeder, Chicken Breeder
 roost:collector, Roost Collector
@@ -14243,18 +14243,14 @@ tp:netherstar_block, Compressed Nether Star Block
 tp:stone_scythe, Stone Scythe
 tp:wooden_leggings, Oak Leggings
 tp:dirty_glass, Dirty Glass
-tp:wither_rib, Rib of the Wither
 tp:hardened_stone_bricks, Hardened Stone Bricks
 tp:golden_battle, Golden BattleAxe
 tp:flesh_block, Compressed Flesh Block
-tp:obsidian_pickaxe, Obsidian Pickaxe
 tp:wheat_juice, Wheat Juice
 tp:flint_pickaxe, Flint Pickaxe
 tp:flint_chestplate, Flint Chestplate
 tp:bone_helmet, Bone Helmet
-tp:wither_boots, Wither Boots
 tp:bacon_eggs_sandwhich, Bacon & Egg Sandwich
-tp:emerald_apple, Emerald Apple
 tp:growth_upgrade, Growth Crystal Tier 2
 tp:colored_lamp:0, White Lamp
 tp:colored_lamp:1, Orange Lamp
@@ -14297,7 +14293,6 @@ tp:cooked_bacon, Cooked Bacon
 tp:water_block, Waterstone
 tp:growth_block, Growth Crystal
 tp:blaze_cobblegen_block, Cobblestone Generator Tier 4
-tp:wither_helmet, Wither Helmet
 tp:bone_hoe, Bone Hoe
 tp:diamond_battle, Diamond BattleAxe
 tp:raw_bacon, Raw Bacon
@@ -14325,7 +14320,6 @@ tp:cobblegen_block, Cobblestone Generator
 tp:potatoe_juice, Potatoe Juice
 tp:wooden_scythe, Wooden Scythe
 tp:stone_multi, Stone MultiTool
-tp:obsidian_chestplate, Obsidian Chestplate
 tp:hardened_stone_smallbricks_slab_double, Hardened Stone Small Bricks Slab
 tp:bacon_eggs, Bacon & Eggs
 tp:diorite_brick, Diorite Brick
@@ -14334,11 +14328,8 @@ tp:golden_multi, Golden MultiTool
 tp:iron_scythe, Iron Scythe
 tp:emerald_scythe, Emerald Scythe
 tp:flint_leggings, Flint Leggings
-tp:iron_apple, Iron Apple
 tp:emerald_cobblegen_block, Cobblestone Generator Tier 5
 tp:stone_leggings, Stone Leggings
-tp:obsidian_leggings, Obsidian Leggings
-tp:diamond_apple, Diamond Apple
 tp:stone_boots, Stone Boots
 tp:hardened_stone_smallbricks_slab_half:0, Hardened Stone Small Bricks Slab
 tp:emerald_battle, Emerald BattleAxe
@@ -14347,9 +14338,7 @@ tp:cactus_juice, Cactus Juice
 tp:bone_sword, Bone Sword
 tp:wooden_spear, Wooden Spear
 tp:old_reed, Dried up Reed
-tp:obsidian_hoe, Obsidian Hoe
 tp:fried_egg, Fried Egg
-tp:dragon_helmet, Dragon Helmet
 tp:wooden_boots, Oak Boots
 tp:emerald_axe, Emerald Axe
 tp:golden_scythe, Golden Scythe
@@ -14357,12 +14346,9 @@ tp:stone_spear, Stone Spear
 tp:cooked_mushroom_brown, Cooked Brown Mushroom
 tp:hardened_stone_stairs, Hardened Stone Stairs
 tp:granite_brick, Granite Brick
-tp:obsidian_axe, Obsidian Axe
 tp:wooden_multi, Wooden MultiTool
-tp:dragon_chestplate, Dragon Chestplate
 tp:golden_spear, Golden Spear
 tp:beet_juice, Beet Juice
-tp:obsidian_battle, Obsidian BattleAxe
 tp:reinforced_obsidian, Reinforced Obsidian
 tp:fmf_block, Floaty McFloaty Block
 tp:emerald_pickaxe, Emerald Pickxe
@@ -14380,7 +14366,6 @@ tp:flint_axe, Flint Axe
 tp:emerald_spear, Emerald Spear
 tp:hardened_stone_smallbricks_stairs, Hardened Stone Small Bricks Stairs
 tp:lava_block, Lavastone
-tp:obsidian_spear, Obsidian Spear
 tp:cooked_apple, Cooked Apple
 tp:iron_multi, Iron MultiTool
 tp:pouch, Big Pouch
@@ -14388,36 +14373,26 @@ tp:little_candy, Candy
 tp:stone_chestplate, Stone Chestplate
 tp:bacon_sandwhich, Bacon Sandwich
 tp:emerald_hoe, Emerald Hoe
-tp:wither_chestplate, Wither Chestplate
 tp:med_kit, Medkit
 tp:stone_torch, Stone Torch
 tp:diamond_scythe, Diamond Scythe
 tp:wooden_helmet, Oak Helmet
-tp:obsidian_scythe, Obsidian Scythe
-tp:dragon_scale, Dragon Scale
-tp:obsidian_boots, Obsidian Boots
 tp:bone_boots, Bone Boots
-tp:dragon_leggings, Dragon Leggings
 tp:bone_chestplate, Bone Chestplate
 tp:bread_slice, Bread Slice
 tp:emerald_sword, Emerald Sword
 tp:rabbit_sandwhich, Rabbit Sandwich
 tp:smooth_endstone, Smooth EndStone
-tp:obsidian_sword, Obsidian Sword
 tp:lamp, Lamp
 tp:stone_stick, Stone Stick
 tp:iron_cobblegen_block, Cobblestone Generator Tier 2
 tp:monster_jerky, Monster Jerky
-tp:redstone_apple, Redstone Apple
 tp:diamond_cobblegen_block, Cobblestone Generator Tier 3
 tp:flint_hoe, Flint Hoe
 tp:emerald_spade, Emerald Shovel
-tp:dragon_boots, Dragon Boots
-tp:obsidian_multi, Obsidian MultiTool
 tp:hardened_stone_slab_half:0, Hardened Stone Slab
 tp:iron_spear, Iron Spear
 tp:melon_juice, Mealon Juice
-tp:obsidian_helmet, Obsidian Helmet
 tp:hardened_stone_smallbricks, Hardened Stone Small Bricks
 tp:hardened_stone_bricks_stairs, Hardened Stone Bricks Stairs
 tp:watering_can, Watering Can
@@ -14431,7 +14406,6 @@ tp:growth_upgrade_two, Growth Crystal Tier 3
 tp:bone_axe, Bone Axe
 tp:mycelium_seeds, Mycelium Seed
 tp:bone_block, Compressed Bone Block
-tp:obsidian_spade, Obsidian Shovel
 tp:andesite_brick, Andesite Brick
 tp:diamond_multi, Diamond MultiTool
 tp:cooked_mushroom_red, Cooked Red Mushroom
@@ -14439,7 +14413,6 @@ tp:stone_battle, Stone BattleAxe
 tp:chicken_sandwhich, Chicken Sandwich
 tp:watering_can_upgrade, Reinforced Watering Can
 tp:apple_juice, Apple Juice
-tp:wither_leggings, Wither Leggings
 waystones:waystone, Waystone
 waystones:return_scroll, Return Scroll
 waystones:warp_scroll, Warp Scroll
@@ -24947,7 +24920,7 @@ industrialforegoing:block_placer, Block Placer
 industrialforegoing:tree_fluid_extractor, Tree Fluid Extractor
 industrialforegoing:latex_processing_unit, Latex Processing Unit
 industrialforegoing:sewage_composter_solidifier, Sewage Composter
-industrialforegoing:animal_byproduct_recolector, Animal Sewage
+industrialforegoing:animal_byproduct_recolector, Animal Sewer
 industrialforegoing:sludge_refiner, Sludge Refiner
 industrialforegoing:mob_detector, Mob Detector
 industrialforegoing:lava_fabricator, Lava Fabricator
