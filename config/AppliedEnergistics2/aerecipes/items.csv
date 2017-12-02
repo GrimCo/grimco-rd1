@@ -644,8 +644,12 @@ minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
 compfac:casing, Compressor Casing
-compfac:controller, Compressor Controller
-compfac:energy_outlet, Compressor Energy Outlet
+compfac:controller_off, Compressor Controller
+compfac:energy_outlet, Compressor Energy Outlet (Lvl 1)
+compfac:energy_outlet2, Compressor Energy Outlet (Lvl 2)
+compfac:energy_outlet3, Compressor Energy Outlet (Lvl 3)
+compfac:energy_outlet4, Compressor Energy Outlet (Lvl 4)
+compfac:energy_outlet5, Compressor Energy Outlet (Lvl 5)
 compfac:item_input, Compressor Item Input
 compfac:item_output, Compressor Item Output
 compfac:factory_door, Compressor Teleporter
@@ -721,6 +725,10 @@ extracells:pattern.fluid:0, ME Fluid Pattern: Syrup
 extracells:pattern.fluid:0, ME Fluid Pattern: Resin
 extracells:pattern.fluid:0, ME Fluid Pattern: Tree Oil
 extracells:pattern.fluid:0, ME Fluid Pattern: Mushroom Stew
+extracells:pattern.fluid:0, ME Fluid Pattern: Essence of Knowledge
+extracells:pattern.fluid:0, ME Fluid Pattern: Potion
+extracells:pattern.fluid:0, ME Fluid Pattern: Splash Potion
+extracells:pattern.fluid:0, ME Fluid Pattern: Lingering Potion
 extracells:pattern.fluid:0, ME Fluid Pattern: Destabilized Redstone
 extracells:pattern.fluid:0, ME Fluid Pattern: Energized Glowstone
 extracells:pattern.fluid:0, ME Fluid Pattern: Resonant Ender
@@ -751,7 +759,9 @@ extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
 extracells:pattern.crafting, item.extracells.pattern.crafting.name
 extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
 extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
-extracells:oc.upgrade, ME Upgrade
+extracells:oc.upgrade:2, ME Upgrade (Tier 1)
+extracells:oc.upgrade:1, ME Upgrade (Tier 2)
+extracells:oc.upgrade:0, ME Upgrade (Tier 3)
 extracells:gas.item, item.extracells.gas.item.name
 extracells:certustank, extracells.block.certustank.name
 extracells:walrus, Walrus
@@ -826,10 +836,18 @@ thermalfoundation:rockwool:14, Orange Rockwool
 thermalfoundation:rockwool:15, White Rockwool
 thermalfoundation:wrench:0, Crescent Hammer
 thermalfoundation:meter:0, Multimeter
-thermalfoundation:tome:0, Forge Lexicon
+thermalfoundation:upgrade:0, Hardened Upgrade Kit
+thermalfoundation:upgrade:1, Reinforced Upgrade Kit
+thermalfoundation:upgrade:2, Signalum Upgrade Kit
+thermalfoundation:upgrade:3, Resonant Upgrade Kit
+thermalfoundation:upgrade:33, Reinforced Conversion Kit
+thermalfoundation:upgrade:34, Signalum Conversion Kit
+thermalfoundation:upgrade:35, Resonant Conversion Kit
+thermalfoundation:upgrade:256, Creative Conversion Kit
 thermalfoundation:security:0, Signalum Security Lock
-thermalfoundation:diagram:0, Schematic
-thermalfoundation:diagram:3, Redprint
+thermalfoundation:diagram_redprint:0, Redprint
+thermalfoundation:tome_lexicon:0, Forge Lexicon
+thermalfoundation:tome_experience:0, Tome of Knowledge
 thermalfoundation:coin:0, Iron Coin
 thermalfoundation:coin:1, Gold Coin
 thermalfoundation:coin:64, Copper Coin
@@ -1207,6 +1225,8 @@ thermalexpansion:machine:7, Fractionating Still (Basic)
 thermalexpansion:machine:8, Fluid Transposer (Basic)
 thermalexpansion:machine:9, Energetic Infuser (Basic)
 thermalexpansion:machine:10, Centrifugal Separator (Basic)
+thermalexpansion:machine:12, Alchemical Imbuer (Basic)
+thermalexpansion:machine:13, Arcane Ensorcellator (Basic)
 thermalexpansion:machine:14, Glacial Precipitator (Basic)
 thermalexpansion:machine:15, Igneous Extruder (Basic)
 thermalexpansion:device:0, Aqueous Accumulator
@@ -1215,6 +1235,10 @@ thermalexpansion:device:2, Thermal Mediator
 thermalexpansion:device:3, Arboreal Extractor
 thermalexpansion:device:4, Aquatic Entangler
 thermalexpansion:device:5, Item Allocator
+thermalexpansion:device:6, Fluid Allocator
+thermalexpansion:device:7, Lexical Transmuter
+thermalexpansion:device:8, Insightful Condenser
+thermalexpansion:device:9, Decoctive Diffuser
 thermalexpansion:dynamo:0, Steam Dynamo (Basic)
 thermalexpansion:dynamo:1, Magmatic Dynamo (Basic)
 thermalexpansion:dynamo:2, Compression Dynamo (Basic)
@@ -1225,57 +1249,6 @@ thermalexpansion:cell:0, Energy Cell (Basic)
 thermalexpansion:tank:0, Portable Tank (Basic)
 thermalexpansion:cache:0, Cache (Basic)
 thermalexpansion:strongbox:0, Strongbox (Basic)
-thermalexpansion:frame:0, Machine Frame
-thermalexpansion:frame:64, Device Frame
-thermalexpansion:frame:128, Energy Cell Frame
-thermalexpansion:frame:129, Hardened Cell Frame
-thermalexpansion:frame:130, Reinforced Cell Frame (Empty)
-thermalexpansion:frame:131, Signalum Cell Frame (Empty)
-thermalexpansion:frame:132, Resonant Cell Frame (Empty)
-thermalexpansion:frame:146, Reinforced Cell Frame (Full)
-thermalexpansion:frame:147, Signalum Cell Frame (Full)
-thermalexpansion:frame:148, Resonant Cell Frame (Full)
-thermalexpansion:upgrade:0, Hardened Upgrade Kit
-thermalexpansion:upgrade:1, Reinforced Upgrade Kit
-thermalexpansion:upgrade:2, Signalum Upgrade Kit
-thermalexpansion:upgrade:3, Resonant Upgrade Kit
-thermalexpansion:upgrade:33, Reinforced Conversion Kit
-thermalexpansion:upgrade:34, Signalum Conversion Kit
-thermalexpansion:upgrade:35, Resonant Conversion Kit
-thermalexpansion:upgrade:256, Creative Conversion Kit
-thermalexpansion:augment:128, Augment: Auxiliary Reception Coil
-thermalexpansion:augment:129, Augment: Auxiliary Sieve
-thermalexpansion:augment:130, Augment: Nullification Chamber
-thermalexpansion:augment:256, Augment: Trivection Chamber
-thermalexpansion:augment:257, Augment: Flux Anodizers
-thermalexpansion:augment:258, Augment: Pyrolytic Conversion
-thermalexpansion:augment:273, Augment: Tectonic Initiator
-thermalexpansion:augment:288, Augment: Resin Funnel
-thermalexpansion:augment:304, Augment: Pyro-Concentrator
-thermalexpansion:augment:320, Augment: Mycelium Substrate
-thermalexpansion:augment:321, Augment: Nether Substrate
-thermalexpansion:augment:322, Augment: Ender Substrate
-thermalexpansion:augment:323, Augment: Sapling Infuser
-thermalexpansion:augment:336, Augment: Numismatic Press
-thermalexpansion:augment:352, Augment: Pyroconvective Loop
-thermalexpansion:augment:400, Augment: Flux Linkage Concentrator
-thermalexpansion:augment:481, Augment: Flurry Stratum
-thermalexpansion:augment:482, Augment: Permafrost Compressor
-thermalexpansion:augment:496, Augment: Pyroclastic Injection
-thermalexpansion:augment:497, Augment: Granitic Subduction
-thermalexpansion:augment:498, Augment: Dioritic Subduction
-thermalexpansion:augment:499, Augment: Andesitic Subduction
-thermalexpansion:augment:512, Augment: Auxiliary Transmission Coil
-thermalexpansion:augment:513, Augment: Fuel Catalyzer
-thermalexpansion:augment:514, Augment: Transmission Coil Ducting
-thermalexpansion:augment:515, Augment: Excitation Field Limiter
-thermalexpansion:augment:576, Augment: Boiler Conversion
-thermalexpansion:augment:640, Augment: Turbine Conversion
-thermalexpansion:augment:656, Augment: Isentropic Reservoir
-thermalexpansion:augment:672, Augment: Closed-Loop Cooling
-thermalexpansion:augment:673, Augment: Ignition Plugs
-thermalexpansion:augment:688, Augment: Elemental Catalyzer
-thermalexpansion:augment:720, Augment: Lapidary Calibration
 thermalexpansion:capacitor:0, Flux Capacitor (Basic)
 thermalexpansion:capacitor:0, Flux Capacitor (Basic)
 thermalexpansion:capacitor:1, Flux Capacitor (Hardened)
@@ -1293,6 +1266,53 @@ thermalexpansion:satchel:2, Satchel (Reinforced)
 thermalexpansion:satchel:3, Satchel (Signalum)
 thermalexpansion:satchel:4, Satchel (Resonant)
 thermalexpansion:satchel:32000, Satchel (Creative)
+thermalexpansion:frame:0, Machine Frame
+thermalexpansion:frame:64, Device Frame
+thermalexpansion:frame:128, Energy Cell Frame
+thermalexpansion:frame:129, Hardened Cell Frame
+thermalexpansion:frame:130, Reinforced Cell Frame (Empty)
+thermalexpansion:frame:131, Signalum Cell Frame (Empty)
+thermalexpansion:frame:132, Resonant Cell Frame (Empty)
+thermalexpansion:frame:146, Reinforced Cell Frame (Full)
+thermalexpansion:frame:147, Signalum Cell Frame (Full)
+thermalexpansion:frame:148, Resonant Cell Frame (Full)
+thermalexpansion:augment:128, Augment: Auxiliary Reception Coil
+thermalexpansion:augment:129, Augment: Auxiliary Sieve
+thermalexpansion:augment:130, Augment: Nullification Chamber
+thermalexpansion:augment:256, Augment: Trivection Chamber
+thermalexpansion:augment:257, Augment: Flux Anodizers
+thermalexpansion:augment:258, Augment: Pyrolytic Conversion
+thermalexpansion:augment:273, Augment: Tectonic Initiator
+thermalexpansion:augment:288, Augment: Resin Funnel
+thermalexpansion:augment:303, Augment: Metallurgical Recovery
+thermalexpansion:augment:304, Augment: Pyro-Concentrator
+thermalexpansion:augment:320, Augment: Nutrient Recovery
+thermalexpansion:augment:323, Augment: Sapling Infuser
+thermalexpansion:augment:324, Augment: Monoculture Cycle
+thermalexpansion:augment:336, Augment: Numismatic Press
+thermalexpansion:augment:352, Augment: Pyroconvective Loop
+thermalexpansion:augment:368, Augment: Reflux Column
+thermalexpansion:augment:369, Augment: Alchemical Retort
+thermalexpansion:augment:400, Augment: Flux Linkage Concentrator
+thermalexpansion:augment:401, Augment: Flux Reconstruction
+thermalexpansion:augment:448, Augment: Reagent Recovery
+thermalexpansion:augment:481, Augment: Flurry Stratum
+thermalexpansion:augment:482, Augment: Permafrost Compressor
+thermalexpansion:augment:496, Augment: Pyroclastic Injection
+thermalexpansion:augment:497, Augment: Granitic Subduction
+thermalexpansion:augment:498, Augment: Dioritic Subduction
+thermalexpansion:augment:499, Augment: Andesitic Subduction
+thermalexpansion:augment:512, Augment: Auxiliary Transmission Coil
+thermalexpansion:augment:513, Augment: Fuel Catalyzer
+thermalexpansion:augment:514, Augment: Transmission Coil Ducting
+thermalexpansion:augment:515, Augment: Excitation Field Limiter
+thermalexpansion:augment:576, Augment: Boiler Conversion
+thermalexpansion:augment:640, Augment: Turbine Conversion
+thermalexpansion:augment:656, Augment: Isentropic Reservoir
+thermalexpansion:augment:672, Augment: Closed-Loop Cooling
+thermalexpansion:augment:673, Augment: Ignition Plugs
+thermalexpansion:augment:688, Augment: Elemental Catalyzer
+thermalexpansion:augment:720, Augment: Lapidary Calibration
 thermalexpansion:florb:0, Florb (Empty§r)
 thermalexpansion:florb:1, Magmatic Florb (Empty§r)
 rafradek_tf2_weapons:placer:0, Spawn Heavy
@@ -14066,6 +14086,44 @@ meecreeps:emptyportalgun, Portal Gun (empty)
 meecreeps:projectile, item.meecreeps.projectile.name
 meecreeps:cartridge, Portal Gun Cartridge
 meecreeps:portalblock, tile.meecreeps.portalblock.name
+xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
+xreliquary:altar, tile.altar.name
+xreliquary:apothecary_mortar, tile.apothecary_mortar.name
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
+xreliquary:pedestal:0, Pedestal
+xreliquary:pedestal:1, Pedestal
+xreliquary:pedestal:2, Pedestal
+xreliquary:pedestal:3, Pedestal
+xreliquary:pedestal:4, Pedestal
+xreliquary:pedestal:5, Pedestal
+xreliquary:pedestal:6, Pedestal
+xreliquary:pedestal:7, Pedestal
+xreliquary:pedestal:8, Pedestal
+xreliquary:pedestal:9, Pedestal
+xreliquary:pedestal:10, Pedestal
+xreliquary:pedestal:11, Pedestal
+xreliquary:pedestal:12, Pedestal
+xreliquary:pedestal:13, Pedestal
+xreliquary:pedestal:14, Pedestal
+xreliquary:pedestal:15, Pedestal
+xreliquary:pedestal_passive:0, Pedestal (Display only)
+xreliquary:pedestal_passive:1, Pedestal (Display only)
+xreliquary:pedestal_passive:2, Pedestal (Display only)
+xreliquary:pedestal_passive:3, Pedestal (Display only)
+xreliquary:pedestal_passive:4, Pedestal (Display only)
+xreliquary:pedestal_passive:5, Pedestal (Display only)
+xreliquary:pedestal_passive:6, Pedestal (Display only)
+xreliquary:pedestal_passive:7, Pedestal (Display only)
+xreliquary:pedestal_passive:8, Pedestal (Display only)
+xreliquary:pedestal_passive:9, Pedestal (Display only)
+xreliquary:pedestal_passive:10, Pedestal (Display only)
+xreliquary:pedestal_passive:11, Pedestal (Display only)
+xreliquary:pedestal_passive:12, Pedestal (Display only)
+xreliquary:pedestal_passive:13, Pedestal (Display only)
+xreliquary:pedestal_passive:14, Pedestal (Display only)
+xreliquary:pedestal_passive:15, Pedestal (Display only)
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, Rib Bone
 xreliquary:mob_ingredient:1, Withered Rib
@@ -14174,44 +14232,6 @@ xreliquary:magazine:7, Seeker Magazine
 xreliquary:magazine:8, Sand Magazine
 xreliquary:magazine:9, Storm Magazine
 xreliquary:tipped_arrow, Tipped Arrow
-xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
-xreliquary:altar, tile.altar.name
-xreliquary:apothecary_mortar, tile.apothecary_mortar.name
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
-xreliquary:pedestal:0, Pedestal
-xreliquary:pedestal:1, Pedestal
-xreliquary:pedestal:2, Pedestal
-xreliquary:pedestal:3, Pedestal
-xreliquary:pedestal:4, Pedestal
-xreliquary:pedestal:5, Pedestal
-xreliquary:pedestal:6, Pedestal
-xreliquary:pedestal:7, Pedestal
-xreliquary:pedestal:8, Pedestal
-xreliquary:pedestal:9, Pedestal
-xreliquary:pedestal:10, Pedestal
-xreliquary:pedestal:11, Pedestal
-xreliquary:pedestal:12, Pedestal
-xreliquary:pedestal:13, Pedestal
-xreliquary:pedestal:14, Pedestal
-xreliquary:pedestal:15, Pedestal
-xreliquary:pedestal_passive:0, Pedestal (Display only)
-xreliquary:pedestal_passive:1, Pedestal (Display only)
-xreliquary:pedestal_passive:2, Pedestal (Display only)
-xreliquary:pedestal_passive:3, Pedestal (Display only)
-xreliquary:pedestal_passive:4, Pedestal (Display only)
-xreliquary:pedestal_passive:5, Pedestal (Display only)
-xreliquary:pedestal_passive:6, Pedestal (Display only)
-xreliquary:pedestal_passive:7, Pedestal (Display only)
-xreliquary:pedestal_passive:8, Pedestal (Display only)
-xreliquary:pedestal_passive:9, Pedestal (Display only)
-xreliquary:pedestal_passive:10, Pedestal (Display only)
-xreliquary:pedestal_passive:11, Pedestal (Display only)
-xreliquary:pedestal_passive:12, Pedestal (Display only)
-xreliquary:pedestal_passive:13, Pedestal (Display only)
-xreliquary:pedestal_passive:14, Pedestal (Display only)
-xreliquary:pedestal_passive:15, Pedestal (Display only)
 roost:roost, Roost
 roost:breeder, Chicken Breeder
 roost:collector, Roost Collector
