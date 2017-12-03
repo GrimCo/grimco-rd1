@@ -15,4 +15,6 @@ mods.thermalexpansion.Pulverizer.addRecipe(dust, foundationPlates[i], RFCOST);
 mods.thermalexpansion.Pulverizer.addRecipe(dust * 4, foundationGears[i], RFCOST, <minecraft:iron_ingot>, 20);
 }
 
+//Essence to Experience conversion
+
 
