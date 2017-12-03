@@ -1,6 +1,6 @@
 [
-	{
-		"player": true,
+	{		
+		"realplayer": true,
 		"dimension": 0,
 		"hostile": true,
 		"incity": true,
@@ -9,12 +9,30 @@
 		"item": "scrap:scrap/{TABLE:\"scrap:scrap\",PLATE:\"d1a77f\",GEAR:\"d0c2ba\",NAME:\"Parts\",XP:\"3d4\"}"
 	},
 	{
-		"player": true,
+		"realplayer": true,
 		"dimension": 0,
 		"hostile": true,
 		"incity": true,
 		"minheight": 50,
 		"random":0.1,
+		"item": "scrap:scrap/{TABLE:\"scrap:chest\",PLATE:\"269463\",GEAR:\"ab948b\",NAME:\"City Chest\",XP:\"4d8\"}"
+	},
+	{
+		"fakeplayer": true,
+		"dimension": 0,
+		"hostile": true,
+		"incity": true,
+		"minheight": 50,
+		"random": 0.167,
+		"item": "scrap:scrap/{TABLE:\"scrap:scrap\",PLATE:\"d1a77f\",GEAR:\"d0c2ba\",NAME:\"Parts\",XP:\"3d4\"}"
+	},
+	{
+		"fakeplayer": true,
+		"dimension": 0,
+		"hostile": true,
+		"incity": true,
+		"minheight": 50,
+		"random":0.025,
 		"item": "scrap:scrap/{TABLE:\"scrap:chest\",PLATE:\"269463\",GEAR:\"ab948b\",NAME:\"City Chest\",XP:\"4d8\"}"
 	}
 ]
