@@ -2,10 +2,10 @@
 	"entries": [
 		{"type": "item",
 			"name": "contenttweaker:damagedgearlead",
-			"weight": 1},
+			"weight": 3},
 		{"type": "item",
 			"name": "contenttweaker:damagedgearsilver",
-			"weight": 1},
+			"weight": 3},
 		{"type": "item",
 			"name": "contenttweaker:damagedgearaluminum",
 			"weight": 1},
@@ -14,13 +14,13 @@
 			"weight": 1},
 		{"type": "item",
 			"name": "contenttweaker:damagedgearinvar",
-			"weight": 1},
+			"weight": 2},
 		{"type": "item",
 			"name": "contenttweaker:damagedplatelead",
-			"weight": 1},
+			"weight": 3},
 		{"type": "item",
 			"name": "contenttweaker:damagedplatesilver",
-			"weight": 1},
+			"weight": 3},
 		{"type": "item",
 			"name": "contenttweaker:damagedplatealuminum",
 			"weight": 1},
@@ -29,5 +29,5 @@
 			"weight": 1},
 		{"type": "item",
 			"name": "contenttweaker:damagedplateinvar",
-			"weight": 1}
+			"weight": 2}
 ]}]}
