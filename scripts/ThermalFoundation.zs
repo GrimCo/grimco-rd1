@@ -1,5 +1,6 @@
 import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.Pulverizer;
+import mods.thermalexpansion.Refinery;
 
 //RF Cost to Pulverize Plates and Gears back to Dust
 val RFCOST = 1500 as int;
@@ -16,5 +17,7 @@ mods.thermalexpansion.Pulverizer.addRecipe(dust * 4, foundationGears[i], RFCOST,
 }
 
 //Essence to Experience conversion
+mods.thermalexpansion.Refinery.addRecipe(<liquid:essence> * 100, null,<liquid:experience> * 100, 2500);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 100, null,<liquid:essence> * 100, 2500);
 
 
