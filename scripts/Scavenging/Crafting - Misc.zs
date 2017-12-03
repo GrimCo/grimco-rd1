@@ -25,8 +25,8 @@ val foundationingot = [<minecraft:iron_ingot>,<minecraft:gold_ingot>,<thermalfou
 //coil recipes
 
 for i, coil in scavengedcoils {
+recipes.addShapeless("CTCoilRepair" +i, foundationcoils[i], [coil, <minecraft:redstone>]);
 
-recipes.addShaped("CTCoilRepair" + i, foundationcoils[i], [[null, <minecraft:redstone>, null],[<minecraft:redstone>,coil, <minecraft:redstone>],[null, <minecraft:redstone>, null]]);
 recipes.addShapeless("CTCoilScrap" + i, foundcoilingot[i], [coil]);
 
 mods.thermalexpansion.Infuser.addRecipe(foundationcoils[i], coil, rfCost);
