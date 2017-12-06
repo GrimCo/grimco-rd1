@@ -26,7 +26,7 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 100, null,<liquid
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glowstone_dust>,<liquid:redstone> * 200);
 mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:blaze_powder>,<minecraft:gunpowder>,<liquid:redstone> * 200, 4500);
 
-//Elemetan Rods from Dust
+//Elemental Rods from Dust
 mods.thermalexpansion.Compactor.addPressRecipe(<minecraft:blaze_rod>,<minecraft:blaze_powder> * 5,2000);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2048>,<thermalfoundation:material:2049> * 5,2000);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2050>,<thermalfoundation:material:2051> * 5,2000);
