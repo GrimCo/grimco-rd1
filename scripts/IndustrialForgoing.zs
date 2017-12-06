@@ -3,7 +3,7 @@ var laserDrill = <industrialforegoing:laser_drill>;
 var laserBase = <industrialforegoing:laser_base>;
 var nrgFieldProvider = <industrialforegoing:energy_field_provider>;
 var latexProcessingUnit = <industrialforegoing:latex_processing_unit>;
-var machineBlock = <teslacorelib:machine_case>;
+var machineBlock = <thermalexpansion:frame:0>;
 var laserLens = <industrialforegoing:laser_lens>;
 var plastic = <ore:itemRubber>;
 var plasticItem = <industrialforegoing:plastic>;
@@ -26,19 +26,7 @@ var slimeball = <ore:slimeball>;
 var rosin = <thermalfoundation:material:832>;
 
 slimeball.add(rosin);
-
 furnace.addRecipe(plasticItem, rosin);
-
-recipes.remove(machineBlock);
-recipes.addShaped(machineBlock * 3, 
-	[	[plastic, plastic, plastic],
-		[stone, stone, stone]]);
-
-recipes.remove(latexProcessingUnit);
-recipes.addShaped(latexProcessingUnit,
-	[	[iron_ingot, redstone, iron_ingot],
-		[furnaceBlock, glass, furnaceBlock],
-		[iron_ingot, iron_gear, iron_ingot]]);
 
 
 recipes.addShaped(laserDrill,
