@@ -1,6 +1,8 @@
 import crafttweaker.item.IItemStack;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Refinery;
+import mods.thermalexpansion.Transposer;
+import mods.thermalexpansion.Compactor;
 
 //RF Cost to Pulverize Plates and Gears back to Dust
 val RFCOST = 1500 as int;
@@ -20,4 +22,12 @@ mods.thermalexpansion.Pulverizer.addRecipe(dust * 4, foundationGears[i], RFCOST,
 mods.thermalexpansion.Refinery.addRecipe(<liquid:essence> * 100, null,<liquid:experience> * 100, 2500);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 100, null,<liquid:essence> * 100, 2500);
 
+//Blaze Powder Recipe
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:glowstone_dust>,<liquid:redstone> * 200);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:blaze_powder>,<minecraft:gunpowder>,<liquid:redstone> * 200, 4500);
 
+//Elemetan Rods from Dust
+mods.thermalexpansion.Compactor.addPressRecipe(<minecraft:blaze_rod>,<minecraft:blaze_powder> * 5,2000);
+mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2048>,<thermalfoundation:material:2049> * 5,2000);
+mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2050>,<thermalfoundation:material:2051> * 5,2000);
+mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2052>,<thermalfoundation:material:2053> * 5,2000);
