@@ -3,6 +3,7 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Compactor;
+import mods.jei.JEI;
 
 //RF Cost to Pulverize Plates and Gears back to Dust
 val RFCOST = 1500 as int;
@@ -32,6 +33,9 @@ mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2048>
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2050>,<thermalfoundation:material:2051> * 5,2000);
 mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:2052>,<thermalfoundation:material:2053> * 5,2000);
 
+//Chorus Plant from Poisonus Potato
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:chorus_flower>,<minecraft:poisonous_potato>,<liquid:ender> * 250, 4500);
+
 //Classic Crafting v2
 var ccCount = 0 as int;
 
@@ -52,22 +56,22 @@ for i in 0 to 6 {
 	ccCount = ccCount + 1;
 }
 
-registerUpgradeRecipes(teTank.definition.makeStack(),ccCount);
+registerUpgradeRecipes(teTank,ccCount);
 ccCount = ccCount + 1;
 
-registerUpgradeRecipes(teBox.definition.makeStack(),ccCount);
+registerUpgradeRecipes(teBox,ccCount);
 ccCount = ccCount + 1;
 
-registerUpgradeRecipes(teCache.definition.makeStack(),ccCount);
+registerUpgradeRecipes(teCache,ccCount);
 ccCount = ccCount + 1;
 
-registerUpgradeRecipes(teCell.definition.makeStack(),ccCount);
+registerUpgradeRecipes(teCell,ccCount);
 
 function registerUpgradeRecipes(device as IItemStack, count as int) {
 	
 recipes.addShaped("TE_"+count+"_Hardened",device.withTag({Level: 1}),
 	[	[null, <ore:ingotInvar>, null],
-		[<ore:ingotInvar>,device.onlyWithTag({Level:0}).marked("device").noReturn(),<ore:ingotInvar>],
+		[<ore:ingotInvar>,device.withTag({Level: 0}).onlyWithTag({Level:0}).marked("device").noReturn(),<ore:ingotInvar>],
 		[null, <ore:ingotInvar>, null]
 	],
 	function(out, ins, cInfo){
@@ -75,7 +79,7 @@ recipes.addShaped("TE_"+count+"_Hardened",device.withTag({Level: 1}),
 	},null);	
 recipes.addShaped("TE_"+count+"_Reinforced",device.withTag({Level: 2}),
 	[	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>],
-		[<ore:ingotElectrum>, device.onlyWithTag({Level: 1}).marked("device").noReturn(), <ore:ingotElectrum>],
+		[<ore:ingotElectrum>, device.withTag({Level: 1}).onlyWithTag({Level: 1}).marked("device").noReturn(), <ore:ingotElectrum>],
 		[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]
 	],
 	function(out, ins, cInfo){
@@ -83,7 +87,7 @@ recipes.addShaped("TE_"+count+"_Reinforced",device.withTag({Level: 2}),
 	},null);	
 recipes.addShaped("TE_"+count+"_Signalum",device.withTag({Level: 3}),
 	[	[null, <ore:ingotSignalum>, null],
-		[<ore:ingotSignalum>, device.onlyWithTag({Level: 2}).marked("device").noReturn(), <ore:ingotSignalum>],
+		[<ore:ingotSignalum>, device.withTag({Level: 2}).onlyWithTag({Level: 2}).marked("device").noReturn(), <ore:ingotSignalum>],
 		[null, <ore:ingotSignalum>, null]
 	],
 	function(out, ins, cInfo){
@@ -91,10 +95,27 @@ recipes.addShaped("TE_"+count+"_Signalum",device.withTag({Level: 3}),
 	},null);	
 recipes.addShaped("TE_"+count+"_Enderium",device.withTag({Level: 4}),
 	[	[null, <ore:ingotEnderium>, null],
-		[<ore:ingotEnderium>, device.onlyWithTag({Level: 3}).marked("device").noReturn(), <ore:ingotEnderium>],
+		[<ore:ingotEnderium>, device.withTag({Level: 3}).onlyWithTag({Level: 3}).marked("device").noReturn(), <ore:ingotEnderium>],
 		[null, <ore:ingotEnderium>, null]
 	],
 	function(out, ins, cInfo){
 		return ins.device.updateTag({Level: 4});		
 	},null);	
 }
+
+//Tank Cleaning
+
+recipes.addShapeless("TETankClean1", teTank.definition.makeStack().withTag({Level:0, Creative: 0}),
+	 [teTank.definition.makeStack().withTag({Level:0, Creative: 0}).onlyWithTag({Level:0, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+
+recipes.addShapeless("TETankClean2", teTank.definition.makeStack().withTag({Level:1, Creative: 0}),
+	[teTank.definition.makeStack().withTag({Level:1, Creative: 0}).onlyWithTag({Level:1, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+
+recipes.addShapeless("TETankClean3", teTank.definition.makeStack().withTag({Level:2, Creative: 0}),
+	[teTank.definition.makeStack().withTag({Level:2, Creative: 0}).onlyWithTag({Level:2, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+
+recipes.addShapeless("TETankClean4", teTank.definition.makeStack().withTag({Level:3, Creative: 0}),
+	[teTank.definition.makeStack().withTag({Level:3, Creative: 0}).onlyWithTag({Level:3, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+
+recipes.addShapeless("TETankClean5", teTank.definition.makeStack().withTag({Level:4, Creative: 0}),
+	[teTank.definition.makeStack().withTag({Level:4, Creative: 0}).onlyWithTag({Level:4, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
