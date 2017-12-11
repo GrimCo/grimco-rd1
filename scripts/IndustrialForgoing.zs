@@ -25,7 +25,6 @@ var nrgFieldAddon = <industrialforegoing:energy_field_addon>;
 var slimeball = <ore:slimeball>;
 var rosin = <thermalfoundation:material:832>;
 
-
 slimeball.add(rosin);
 furnace.addRecipe(plasticItem, rosin);
 

@@ -47,3 +47,7 @@ item.contenttweaker.damagedCoilTransmission.name=Drained Transmission Coil
 item.contenttweaker.damagedFrameDevice.name=Broken Device Frame
 item.contenttweaker.damagedFrameMachine.name=Broken Machine Frame
 item.contenttweaker.damagedFrameEnergy.name=Broken Energy Cell Frame
+
+item.contenttweaker.plasticPurple.name=Purple Glazed Plastic
+item.contenttweaker.deathBook.name=Death Notebook
+item.contenttweaker.crystallattice.name=Crystalline Lattice
