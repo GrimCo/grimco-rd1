@@ -27,4 +27,4 @@ recipes.addShaped("CTShulkerShell", shell,
 
 recipes.addShapeless("CTDeathNotebook",<contenttweaker:deathbook>, [<ore:paper>,<ore:paper>,<ore:paper>,<minecraft:rotten_flesh>]);
 
-recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<ore:sugar>]);
+recipes.addShapeless("CTCrystalLatice", <contenttweaker:crystallattice>, [<ore:sand>,<minecraft:sugar>]);
