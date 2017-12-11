@@ -3,7 +3,7 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Compactor;
-import mods.jei.JEI;
+import mods.thermalexpansion.InductionSmelter;
 
 //RF Cost to Pulverize Plates and Gears back to Dust
 val RFCOST = 1500 as int;
@@ -104,18 +104,19 @@ recipes.addShaped("TE_"+count+"_Enderium",device.withTag({Level: 4}),
 }
 
 //Tank Cleaning
+recipes.addShapeless("TETankClean", teTank,
+	[teTank.marked("tank").noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)],
+	function(out, ins, cInfo){
+		return ins.tank.updateTag({Fluid: {FluidName: "", Amount: 0}});
+	 }, null);
+	 
+//Purple Glazed Plastic
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:plasticpurple>,<industrialforegoing:plastic>,<minecraft:dye:5>, 4500);
 
-recipes.addShapeless("TETankClean1", teTank.definition.makeStack().withTag({Level:0, Creative: 0}),
-	 [teTank.definition.makeStack().withTag({Level:0, Creative: 0}).onlyWithTag({Level:0, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+//Crystalline Lattice Recipes
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:prismarine>,<contenttweaker:crystallattice>,<liquid:water> * 250, 4500);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:quartz_block>,<contenttweaker:crystallattice>,<liquid:lava> * 250, 4500);
 
-recipes.addShapeless("TETankClean2", teTank.definition.makeStack().withTag({Level:1, Creative: 0}),
-	[teTank.definition.makeStack().withTag({Level:1, Creative: 0}).onlyWithTag({Level:1, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
-
-recipes.addShapeless("TETankClean3", teTank.definition.makeStack().withTag({Level:2, Creative: 0}),
-	[teTank.definition.makeStack().withTag({Level:2, Creative: 0}).onlyWithTag({Level:2, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
-
-recipes.addShapeless("TETankClean4", teTank.definition.makeStack().withTag({Level:3, Creative: 0}),
-	[teTank.definition.makeStack().withTag({Level:3, Creative: 0}).onlyWithTag({Level:3, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
-
-recipes.addShapeless("TETankClean5", teTank.definition.makeStack().withTag({Level:4, Creative: 0}),
-	[teTank.definition.makeStack().withTag({Level:4, Creative: 0}).onlyWithTag({Level:4, Creative: 0}).noReturn(),<minecraft:sponge:0>.giveBack(<minecraft:sponge:1>)]);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 4, <minecraft:prismarine:0>, RFCOST);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 9, <minecraft:prismarine:1>, RFCOST);
+mods.thermalexpansion.Pulverizer.addRecipe(<minecraft:prismarine_shard> * 8, <minecraft:prismarine:2>, RFCOST, <minecraft:dye:0>, 33);
