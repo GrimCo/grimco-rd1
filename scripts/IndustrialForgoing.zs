@@ -1,3 +1,5 @@
+import mods.industrialforegoing.LaserDrill;
+
 var enchantRefine = <industrialforegoing:enchantment_refiner>;
 var laserDrill = <industrialforegoing:laser_drill>;
 var laserBase = <industrialforegoing:laser_base>;
@@ -28,7 +30,6 @@ var rosin = <thermalfoundation:material:832>;
 slimeball.add(rosin);
 furnace.addRecipe(plasticItem, rosin);
 
-
 recipes.addShaped(laserDrill,
 	[	[plastic, laserLens, plastic],
 		[glass, glowstone, glass],
@@ -48,3 +49,6 @@ recipes.addShaped(nrgFieldProvider,
 	[	[gold_ingot, nrgFieldAddon, gold_ingot],
 		[gold_ingot, machineBlock, gold_ingot],
 		[repeater, invar_gear, repeater]]);
+		
+mods.industrialforegoing.LaserDrill.add(9,<appliedenergistics2:quartz_ore>, 7);
+mods.industrialforegoing.LaserDrill.add(2,<rftools:dimensional_shard_ore>, 5);
