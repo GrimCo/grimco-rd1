@@ -17,7 +17,11 @@ recipes.addShaped("CTSponge",<minecraft:sponge>,
 	[	[null, <ore:dustWood>, null],
 		[<ore:dustWood>, <minecraft:wool:*>, <ore:dustWood>],
 		[null, <ore:dustWood>, null]	]);
-
+		
+recipes.addShaped("CTCokeBlock", <chisel:block_coal_coke2:1>,
+	[	[<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>],
+		[<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>],
+		[<ore:fuelCoke>,<ore:fuelCoke>,<ore:fuelCoke>]	]);
 
 val shell = <minecraft:shulker_shell>.withTag({display: {Name:"Artificial Shulker Shell", Lore: ["Plastics Made It Possible"]}});
 mods.jei.JEI.addItem(shell);
