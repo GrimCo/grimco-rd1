@@ -6,7 +6,7 @@
 			"generator": {
 				"block": "dirt",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
 			"cluster-count": 10,
 			"min-height": 0,
@@ -27,7 +27,7 @@
 			"generator": {
 				"block": "gravel",
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -53,9 +53,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -79,9 +79,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -105,9 +105,9 @@
 					}
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 33
+				"cluster-size": 20
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 80,
 			"retrogen": false,
@@ -126,9 +126,9 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 12
 			},
-			"cluster-count": 10,
+			"cluster-count": 8,
 			"min-height": 0,
 			"max-height": 128,
 			"retrogen": false,
@@ -149,7 +149,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 16,
+			"cluster-count": 14,
 			"min-height": 0,
 			"max-height": 64,
 			"retrogen": false,
@@ -235,9 +235,9 @@
 			"generator": {
 				"block": "redstone_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 8
 			},
-			"cluster-count": 8,
+			"cluster-count": 6,
 			"min-height": 0,
 			"max-height": 16,
 			"retrogen": false,
@@ -279,7 +279,7 @@
 			"generator": {
 				"block": "diamond_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 10
+				"cluster-size": 6
 			},
 			"cluster-count": 4,
 			"min-height": 0,
@@ -323,7 +323,7 @@
 			"generator": {
 				"block": "lapis_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 8
 			},
 			"cluster-count": 4,
 			"center-height": 16,
