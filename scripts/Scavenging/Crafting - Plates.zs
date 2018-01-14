@@ -8,7 +8,7 @@ val rfCost = 3000 as int;
 
 //list of all thermal foundation hammers
 //.anyDamage().transformDamage()
-val hammers = [<thermalfoundation:tool.hammer_copper:32767>,<thermalfoundation:tool.hammer_tin:32767>,<thermalfoundation:tool.hammer_silver:32767>,<thermalfoundation:tool.hammer_lead:32767>,<thermalfoundation:tool.hammer_aluminum:32767>,<thermalfoundation:tool.hammer_nickel:32767>,<thermalfoundation:tool.hammer_platinum:32767>,<thermalfoundation:tool.hammer_steel:32767>,<thermalfoundation:tool.hammer_gold:32767>,<thermalfoundation:tool.hammer_invar:32767>,<thermalfoundation:tool.hammer_bronze:32767>,<thermalfoundation:tool.hammer_constantan:32767>,<thermalfoundation:tool.hammer_iron:32767>,<thermalfoundation:tool.hammer_electrum:32767>,<thermalfoundation:tool.hammer_diamond:32767>,<redstonearsenal:tool.hammer_flux:32767>] as IItemStack[];
+val hammers = [<thermalfoundation:tool.hammer_copper:32767>,<thermalfoundation:tool.hammer_tin:32767>,<thermalfoundation:tool.hammer_silver:32767>,<thermalfoundation:tool.hammer_lead:32767>,<thermalfoundation:tool.hammer_aluminum:32767>,<thermalfoundation:tool.hammer_nickel:32767>,<thermalfoundation:tool.hammer_platinum:32767>,<thermalfoundation:tool.hammer_steel:32767>,<thermalfoundation:tool.hammer_gold:32767>,<thermalfoundation:tool.hammer_invar:32767>,<thermalfoundation:tool.hammer_bronze:32767>,<thermalfoundation:tool.hammer_constantan:32767>,<thermalfoundation:tool.hammer_iron:32767>,<thermalfoundation:tool.hammer_electrum:32767>,<thermalfoundation:tool.hammer_diamond:32767>] as IItemStack[];
 
 val scavengedplates = [<contenttweaker:damagedplateiron>,<contenttweaker:damagedplategold>,<contenttweaker:damagedplatecopper>,<contenttweaker:damagedplatetin>,<contenttweaker:damagedplatesilver>,<contenttweaker:damagedplatelead>,<contenttweaker:damagedplatealuminum>,<contenttweaker:damagedplatenickel>,<contenttweaker:damagedplateplatinum>,<contenttweaker:damagedplateiridium>,<contenttweaker:damagedplatemithril>,<contenttweaker:damagedplatesteel>,<contenttweaker:damagedplateelectrum>,<contenttweaker:damagedplateinvar>,<contenttweaker:damagedplatebronze>,<contenttweaker:damagedplateconstatan>,<contenttweaker:damagedplatesignalum>,<contenttweaker:damagedplatelumium>,<contenttweaker:damagedplateenderium>,<contenttweaker:damagedplatefluxedelectrum>] as IItemStack[];
 
@@ -29,9 +29,12 @@ mods.thermalexpansion.Compactor.addPressRecipe(foundationplates[i],plate, rfCost
 recipes.addShapeless("CTPlateScrap"+i, foundationingot[i], [plate]);
 
 	for currentHammer in hammers {
-
+	
 	recipes.addShapeless("CTPlateRepair"+count,	foundationplates[i], [plate, currentHammer.anyDamage().transformDamage()]);
 	count = count + 1;
 
 	}
+
+recipes.addShapeless("CTPlateFluxRepair"+i, foundationplates[i], [plate, <redstonearsenal:tool.hammer_flux>.transformDamage(0)]);
+	
 }
