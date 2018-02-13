@@ -1543,8 +1543,8 @@
 		"Attributes":
 		{
 			"WeaponMode": 1,
-			"CloakRegenBonus": 1.5,
-			"CloakDurationBonus": 1.4,
+			"ChargeBonus": 1.5,
+			"EffectDurationBonus": 1.4,
 			"CloakDrainActivate": 0.5,
 			"NoExternalCloak": 1
 			
@@ -1702,9 +1702,63 @@
 		{
 			"FireRatePenalty": 1.75,
 			"ClipSizePenalty": 0.25,
-			"AmmoEfficiencyPenalty": 2.5,
+			"AmmoEfficiencyPenalty": 2,
 			"DamageBonus": 1.7,
-			"ExplosionRadiusBonus": 2
+			"ExplosionRadiusBonus": 2,
+			"Unblockable": 1
 		}
+	},
+	"airstrike": 
+	{
+		"Name": "Air Strike",
+		"Class": "projectile",
+		"Based on": "rocketlauncher",
+		"Render": "rafradek_tf2_weapons:rocketlauncher",
+		"Fire sound": "rafradek_tf2_weapons:weapon.fire.airstrike",
+		"Cost": 30,
+		"Stock": false,
+		"Attributes": 
+		{
+			"SelfDamageReduced": 0.85,
+			"ClipOnKill": 1,
+			"CollectHeads": 1,
+			"DamagePenalty": 0.85,
+			"AirborneBonus": 1
+		}
+	},
+	"fistofsteel": 
+	{
+		"Name": "Fist of Steel",
+		"Class": "melee",
+		"Based on": "fryingpan",
+		"Mobs": "heavy",
+		"Render": "rafradek_tf2_weapons:fists_of_steel",
+		"Fire sound": "rafradek_tf2_weapons:weapon.fire.gloves",
+		"Hit sound": "rafradek_tf2_weapons:weapon.hit.gloves",
+		"Firing speed": 1200,
+		"Damage": 7.5,
+		"Dual wield speed": 0.65,
+		"Drop chance": 0.11,
+		"Cost": 9,
+		"Attributes": 
+		{
+			"MeleeResistPenalty": 2,
+			"RangedResistBonus": 0.6,
+			"HolsterTimePenalty": 2
+		}
+	},
+	"basejumper": 
+	{
+		"Name": "B.A.S.E Jumper",
+		"Class": "parachute",
+		"Render": "rafradek_tf2_weapons:base_jumper",
+		"Mobs": "solder",
+		"Slot": 2,
+		"Drop chance": 0.07,
+		"Cost": 15,
+		"Armor": 4,
+		"Wear flags": 2,
+		"Description": "Press jump button while airborne to activate",
+		"Stock": false
 	}
 }

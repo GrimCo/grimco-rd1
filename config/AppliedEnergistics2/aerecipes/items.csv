@@ -1387,9 +1387,18 @@ rafradek_tf2_weapons:ammo_belt, Ammo Belt
 rafradek_tf2_weapons:scout_shoes, Scout Shoes
 rafradek_tf2_weapons:mantreads, Mantreads
 rafradek_tf2_weapons:statue, statue
+rafradek_tf2_weapons:token:0, Scout Token
+rafradek_tf2_weapons:token:1, Soldier Token
+rafradek_tf2_weapons:token:2, Pyro Token
+rafradek_tf2_weapons:token:3, Demoman Token
+rafradek_tf2_weapons:token:4, Heavy Token
+rafradek_tf2_weapons:token:5, Engineer Token
+rafradek_tf2_weapons:token:6, Medic Token
+rafradek_tf2_weapons:token:7, Sniper Token
+rafradek_tf2_weapons:token:8, Spy Token
 rafradek_tf2_weapons:itemtf2:0, Copper Ingot
 rafradek_tf2_weapons:itemtf2:1, Lead Ingot
-rafradek_tf2_weapons:itemtf2:2, Austalium Ingot
+rafradek_tf2_weapons:itemtf2:2, Australium Ingot
 rafradek_tf2_weapons:itemtf2:3, Scrap Metal
 rafradek_tf2_weapons:itemtf2:4, Reclaimed Metal
 rafradek_tf2_weapons:itemtf2:5, Refined Metal
@@ -17055,8 +17064,8 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
-aov:blockangelic, Angelic Statue
 aov:debugger, Debugger
+aov:blockangelic, Angelic Statue
 baubles:ring:0, Miner's Ring
 bonsaitrees:bonsaipot:0, Bonsai Pot
 bonsaitrees:bonsaipot:1, Hopping Bonsai Pot
@@ -17127,8 +17136,6 @@ darkutils:pearl_block:1, Pearl Brick
 darkutils:pearl_block:2, Carved Pearl Block
 darkutils:pearl_block:3, Chiseled Pearl Block
 darkutils:timer, Timer
-darkutils:monolith:0, Monolith of Experience
-darkutils:monolith:1, Monolith of Spawning
 darkutils:filter:0, Mob Filter
 darkutils:filter:1, Mob Filter
 darkutils:filter:2, Mob Filter
@@ -17317,6 +17324,24 @@ ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
 ironbackpacks:upgrade:0, Everlasting Upgrade
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -17437,24 +17462,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 meecreeps:creepcube, Creep Cube
 meecreeps:portalgun, Portal Gun
 meecreeps:emptyportalgun, Portal Gun (empty)
@@ -17466,6 +17473,44 @@ openglider:hang_glider_part:1, Glider Wing (Right)
 openglider:hang_glider_part:2, Scaffolding
 openglider:hang_glider_basic, Hang Glider
 openglider:hang_glider_advanced, Advanced Hang Glider
+xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
+xreliquary:altar, tile.altar.name
+xreliquary:apothecary_mortar, tile.apothecary_mortar.name
+xreliquary:fertile_lilypad, tile.fertile_lilypad.name
+xreliquary:interdiction_torch, tile.interdiction_torch.name
+xreliquary:wraith_node, tile.wraith_node.name
+xreliquary:pedestal:0, Pedestal
+xreliquary:pedestal:1, Pedestal
+xreliquary:pedestal:2, Pedestal
+xreliquary:pedestal:3, Pedestal
+xreliquary:pedestal:4, Pedestal
+xreliquary:pedestal:5, Pedestal
+xreliquary:pedestal:6, Pedestal
+xreliquary:pedestal:7, Pedestal
+xreliquary:pedestal:8, Pedestal
+xreliquary:pedestal:9, Pedestal
+xreliquary:pedestal:10, Pedestal
+xreliquary:pedestal:11, Pedestal
+xreliquary:pedestal:12, Pedestal
+xreliquary:pedestal:13, Pedestal
+xreliquary:pedestal:14, Pedestal
+xreliquary:pedestal:15, Pedestal
+xreliquary:pedestal_passive:0, Pedestal (Display only)
+xreliquary:pedestal_passive:1, Pedestal (Display only)
+xreliquary:pedestal_passive:2, Pedestal (Display only)
+xreliquary:pedestal_passive:3, Pedestal (Display only)
+xreliquary:pedestal_passive:4, Pedestal (Display only)
+xreliquary:pedestal_passive:5, Pedestal (Display only)
+xreliquary:pedestal_passive:6, Pedestal (Display only)
+xreliquary:pedestal_passive:7, Pedestal (Display only)
+xreliquary:pedestal_passive:8, Pedestal (Display only)
+xreliquary:pedestal_passive:9, Pedestal (Display only)
+xreliquary:pedestal_passive:10, Pedestal (Display only)
+xreliquary:pedestal_passive:11, Pedestal (Display only)
+xreliquary:pedestal_passive:12, Pedestal (Display only)
+xreliquary:pedestal_passive:13, Pedestal (Display only)
+xreliquary:pedestal_passive:14, Pedestal (Display only)
+xreliquary:pedestal_passive:15, Pedestal (Display only)
 xreliquary:alkahestry_tome, item.alkahestry_tome.name
 xreliquary:mob_ingredient:0, Rib Bone
 xreliquary:mob_ingredient:1, Withered Rib
@@ -17574,44 +17619,6 @@ xreliquary:magazine:7, Seeker Magazine
 xreliquary:magazine:8, Sand Magazine
 xreliquary:magazine:9, Storm Magazine
 xreliquary:tipped_arrow, Tipped Arrow
-xreliquary:apothecary_cauldron, tile.apothecary_cauldron.name
-xreliquary:altar, tile.altar.name
-xreliquary:apothecary_mortar, tile.apothecary_mortar.name
-xreliquary:fertile_lilypad, tile.fertile_lilypad.name
-xreliquary:interdiction_torch, tile.interdiction_torch.name
-xreliquary:wraith_node, tile.wraith_node.name
-xreliquary:pedestal:0, Pedestal
-xreliquary:pedestal:1, Pedestal
-xreliquary:pedestal:2, Pedestal
-xreliquary:pedestal:3, Pedestal
-xreliquary:pedestal:4, Pedestal
-xreliquary:pedestal:5, Pedestal
-xreliquary:pedestal:6, Pedestal
-xreliquary:pedestal:7, Pedestal
-xreliquary:pedestal:8, Pedestal
-xreliquary:pedestal:9, Pedestal
-xreliquary:pedestal:10, Pedestal
-xreliquary:pedestal:11, Pedestal
-xreliquary:pedestal:12, Pedestal
-xreliquary:pedestal:13, Pedestal
-xreliquary:pedestal:14, Pedestal
-xreliquary:pedestal:15, Pedestal
-xreliquary:pedestal_passive:0, Pedestal (Display only)
-xreliquary:pedestal_passive:1, Pedestal (Display only)
-xreliquary:pedestal_passive:2, Pedestal (Display only)
-xreliquary:pedestal_passive:3, Pedestal (Display only)
-xreliquary:pedestal_passive:4, Pedestal (Display only)
-xreliquary:pedestal_passive:5, Pedestal (Display only)
-xreliquary:pedestal_passive:6, Pedestal (Display only)
-xreliquary:pedestal_passive:7, Pedestal (Display only)
-xreliquary:pedestal_passive:8, Pedestal (Display only)
-xreliquary:pedestal_passive:9, Pedestal (Display only)
-xreliquary:pedestal_passive:10, Pedestal (Display only)
-xreliquary:pedestal_passive:11, Pedestal (Display only)
-xreliquary:pedestal_passive:12, Pedestal (Display only)
-xreliquary:pedestal_passive:13, Pedestal (Display only)
-xreliquary:pedestal_passive:14, Pedestal (Display only)
-xreliquary:pedestal_passive:15, Pedestal (Display only)
 roost:roost, Roost
 roost:breeder, Chicken Breeder
 roost:collector, Roost Collector
@@ -24363,6 +24370,55 @@ chiselsandbits:chiseled_grass, Chiseled Grass
 chiselsandbits:chiseled_snow, Chiseled Snow
 chiselsandbits:chiseled_fluid, Chiseled Fluid
 chiselsandbits:chiseled_leaves, Chiseled Leaves
+contenttweaker:damagedframemachine, Broken Machine Frame
+contenttweaker:damagedplateiridium, Dented Iridium Plate
+contenttweaker:damagedcoiltransmission, Drained Transmission Coil
+contenttweaker:damagedgearsilver, Chipped Silver Gear
+contenttweaker:crystallattice, Crystalline Lattice
+contenttweaker:damagedgearelectrum, Chipped Electrum Gear
+contenttweaker:damagedgearcopper, Chipped Copper Gear
+contenttweaker:damagedgeartin, Chipped Tin Gear
+contenttweaker:damagedplatenickel, Dented Nickel Plate
+contenttweaker:damagedplatemithril, Dented Mana-Infused Plate
+contenttweaker:damagedplateinvar, Dented Invar Plate
+contenttweaker:damagedgearplatinum, Chipped Platinum Gear
+contenttweaker:damagedgearbronze, Chipped Bronze Gear
+contenttweaker:damagedgearsignalum, Chipped Signalum Gear
+contenttweaker:damagedplateelectrum, Dented Electrum Plate
+contenttweaker:damagedgeariron, Chipped Iron Gear
+contenttweaker:damagedplateiron, Dented Iron Plate
+contenttweaker:damagedplatesilver, Dented Silver Plate
+contenttweaker:damagedplateplatinum, Dented Platinum Plate
+contenttweaker:damagedgearconstatan, Chipped Constantan Gear
+contenttweaker:damagedgearsteel, Chipped Steel Gear
+contenttweaker:damagedplatecopper, Dented Copper Plate
+contenttweaker:damagedgearlumium, Chipped Lumium Gear
+contenttweaker:damagedplatebronze, Dented Bronze Plate
+contenttweaker:damagedgearinvar, Chipped Invar Gear
+contenttweaker:damagedplatelead, Dented Lead Plate
+contenttweaker:damagedplategold, Dented Gold Plate
+contenttweaker:damagedgearenderium, Chipped Enderium Gear
+contenttweaker:damagedplatetin, Dented Tin Plate
+contenttweaker:damagedplatesteel, Dented Steel Plate
+contenttweaker:damagedframeenergy, Broken Energy Cell Frame
+contenttweaker:damagedplateenderium, Dented Enderium Plate
+contenttweaker:damagedgearlead, Chipped Lead Gear
+contenttweaker:damagedgeargold, Chipped Gold Gear
+contenttweaker:damagedgeariridium, Chipped Iridium Gear
+contenttweaker:damagedgearmithril, Chipped Mana-Infused Gear
+contenttweaker:damagedplatealuminum, Dented Aluminum Plate
+contenttweaker:damagedcoilreception, Drained Reception Coil
+contenttweaker:damagedcoilconductance, Drained Conductance Coil
+contenttweaker:damagedframedevice, Broken Device Frame
+contenttweaker:damagedplatesignalum, Dented Signalum Plate
+contenttweaker:damagedgearaluminum, Chipped Aluminum Gear
+contenttweaker:damagedplateconstatan, Dented Constantan Plate
+contenttweaker:damagedgearfluxedelectrum, Chipped Fluxed Electrum Gear
+contenttweaker:damagedplatefluxedelectrum, Dented Fluxed Electrum Plate
+contenttweaker:damagedplatelumium, Dented Lumium Plate
+contenttweaker:deathbook, Death Notebook
+contenttweaker:damagedgearnickel, Chipped Nickel Gear
+contenttweaker:plasticpurple, Purple Glazed Plastic
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
 theoneprobe:probenote, The One Probe Read Me
@@ -28364,6 +28420,7 @@ notenoughwands:master_protection_wand, Master Protection Wand
 notenoughwands:freezing_wand, Freezing Wand (WIP)
 notenoughwands:potion_wand, Potion Wand
 omlib:debug_tool:0, Debug Tool
+omlib:fake_sword, item.fake_sword.name
 openmodularturrets:intermediate_tiered:0, Sensor (Tier 1)
 openmodularturrets:intermediate_tiered:1, Sensor (Tier 2)
 openmodularturrets:intermediate_tiered:2, Sensor (Tier 3)
